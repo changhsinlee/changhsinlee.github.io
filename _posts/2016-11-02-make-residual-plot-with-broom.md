@@ -3,11 +3,12 @@ layout: post
 title: 用broom畫殘差圖(residual plot)
 categories: [rstats, graphics]
 tags: [broom, residual, ggplot2, regression]
+comments: true
 ---
 
 
 
-在作迴歸分析時，常常會用殘差圖(residual plot)來當作模型是否有改進空間的依據。最近在教學時發現David Robinson作的`broom`套件相當好用，也可以拿來畫殘差圖。`broom`內的函數大多是拿來計算和model相關的數據，而它和R內建函數的不之處是所輸出的物件通通都是data frame，所以能和Hadley Wickham的`dplyr`及`ggplot2`無縫接軌。
+在作迴歸分析時，常常會用殘差圖(residual plot)來當作模型是否有改進空間的依據。最近在教學時發現David Robinson作的`broom`套件相當好用，也可以拿來畫殘差圖。`broom`內的函數大多是拿來計算和model相關的數據，而它和R內建函數的不同之處是所輸出的物件通通都是data frame，所以能和Hadley Wickham的`dplyr`及`ggplot2`無縫接軌。
 
 ## 例子
 
@@ -48,3 +49,11 @@ b.res.plot + geom_smooth(se = FALSE)
 ## 其他函數
 
 `broom`內還有很多方便的函數，像是`tidy()`和`glance()`，以及可以和`dplyr`一起拿來作拔靴法的`bootstrep`等等。另外David Robinson本身有寫[部落格](http://varianceexplained.org/)，他的文章也是相當高水準，值得一讀。
+
+
+
+{% if site.disqus_shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
+
+

@@ -86,4 +86,7 @@ exclude:
   - README.md
   - CNAME
   
+# Disqus comment
+disqus_shortname: itchyr
+  
 # servr::jekyll(command = "C:/tools/ruby23/bin/jekyll build")
