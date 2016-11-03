@@ -52,8 +52,6 @@ b.res.plot + geom_smooth(se = FALSE)
 
 
 
-{% if site.disqus_shortname %}
-  {% include disqus_comments.html %}
-{% endif %}
+
 
 

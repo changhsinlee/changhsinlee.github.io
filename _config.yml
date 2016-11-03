@@ -35,7 +35,7 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus:
+disqus: itchyr
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
@@ -77,6 +77,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-archives
 
 # Exclude these files from your production _site
 exclude:
@@ -87,6 +88,6 @@ exclude:
   - CNAME
   
 # Disqus comment
-disqus_shortname: itchyr
+# disqus_shortname: 
   
 # servr::jekyll(command = "C:/tools/ruby23/bin/jekyll build")
