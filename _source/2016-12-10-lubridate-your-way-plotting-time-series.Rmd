@@ -10,7 +10,7 @@ comments: true
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-這學期讓學生作期末專題時，有幾位學生想處理的資料是內含日期的時間序列(time series)。因為日期讀入 R 以後會儲存成字串(如果有記得`stringsAsFactor = FALSE`)，就算想畫一張時間序列圖，都需要將資料清理一下才行。這時 Hadley Wickham 開發的 lubridate 就相當好用。這篇文章用到的包裹如下
+這學期讓學生作期末專題時，有幾位學生想處理的資料是內含日期的時間序列(time series)。因為日期讀入 R 以後會儲存成字串(如果有記得`stringsAsFactor = FALSE`)，就算想畫一張時間序列圖，都需要將資料清理一下才行。這時 Hadley Wickham 開發的 [lubridate](https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html) 就相當好用。這篇文章用到的包裹如下
 
 ```{r, warning = FALSE, message = FALSE}
 library(dplyr)
