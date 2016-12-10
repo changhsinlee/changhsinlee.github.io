@@ -37,6 +37,7 @@ head(seaice.09,3)
 這裡的日期被存在三個不同的欄位`Year`、`Month`、`Day`中，所以第一步要先用`paste()`將資料合併成`2009-6-30`樣式的字串，再用lubridate中的`ymd()`函數(意指這裡的字串是以年/月/日的順序讀入)轉換成 R 的標準日期格式(POSIX date format)。
 
 
+
 ```r
 seaice <- seaice.09 %>% 
   mutate(date = (paste(Year, Month, Day, sep="-") %>% ymd()))
@@ -67,7 +68,11 @@ seaice %>% ggplot(aes(x=date, y=Extent, color=hemisphere)) + geom_point()
 
 ## 轉換日期為十進位數值
 
+<<<<<<< HEAD
 ggplot2在作圖時可以直接用日期的資料格式，但如果要進行迴歸分析，就必須把日期轉換成數值格式才行。好在 lubridate 中的 `decimal_date()` 可以幫我們快速轉換。(如果要把數值轉為日期則是`date_decimal()`)
+=======
+在作圖時可以直接用日期的資料格式，但如果要進行迴歸分析，就必須把日期轉換成數值格式才行。好在 lubridate 中的 `decimal_date()` 可以幫我們快速轉換。(如果要把數值轉為日期則是`date_decimal()`)
+>>>>>>> 106952876ab62bce24a095ef2d840e51ece2fc0d
 
 
 ```r

@@ -29,6 +29,7 @@ head(seaice.09,3)
 
 這裡的日期被存在三個不同的欄位`Year`、`Month`、`Day`中，所以第一步要先用`paste()`將資料合併成`2009-6-30`樣式的字串，再用lubridate中的`ymd()`函數(意指這裡的字串是以年/月/日的順序讀入)轉換成 R 的標準日期格式(POSIX date format)。
 
+
 ```{r}
 seaice <- seaice.09 %>% 
   mutate(date = (paste(Year, Month, Day, sep="-") %>% ymd()))
