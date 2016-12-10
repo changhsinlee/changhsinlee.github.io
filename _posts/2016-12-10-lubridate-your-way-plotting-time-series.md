@@ -68,11 +68,7 @@ seaice %>% ggplot(aes(x=date, y=Extent, color=hemisphere)) + geom_point()
 
 ## 轉換日期為十進位數值
 
-<<<<<<< HEAD
 ggplot2在作圖時可以直接用日期的資料格式，但如果要進行迴歸分析，就必須把日期轉換成數值格式才行。好在 lubridate 中的 `decimal_date()` 可以幫我們快速轉換。(如果要把數值轉為日期則是`date_decimal()`)
-=======
-在作圖時可以直接用日期的資料格式，但如果要進行迴歸分析，就必須把日期轉換成數值格式才行。好在 lubridate 中的 `decimal_date()` 可以幫我們快速轉換。(如果要把數值轉為日期則是`date_decimal()`)
->>>>>>> 106952876ab62bce24a095ef2d840e51ece2fc0d
 
 
 ```r
