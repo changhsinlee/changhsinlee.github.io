@@ -3,9 +3,9 @@
 #
 
 # Name of your site (displayed in the header)
-name: 好癢 R
+name: Chang Hsin Lee
 # Short bio or description (displayed in the header)
-description: documenting the journey in R 
+description: Commiting my thoughts to words.
 
 # Encoding
 encoding: utf-8
@@ -27,7 +27,7 @@ footer-links:
   linkedin: chang-hsin-lee-51036158
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: changleetw
+  twitter: ChangLeeTw
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
