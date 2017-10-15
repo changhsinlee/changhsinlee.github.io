@@ -37,7 +37,7 @@ On my first day as an intern, I read a Tufte book. I was waiting for a work lapt
 
 Over the next two months, this sort of exchange happened again and again. Many of my discussions in the office pointed me to a resource in statistics that I had never heard of. The terms that my colleagues used became little conceptual gold nuggets that I could plug into the search bar to expand the boundary of my knowledge comfort zone. It was a lot of fun.
 
-The analytics team I was in was an R and SQL stack. I spent 5-6 hours a day on R and SQL for my project. My coding skills improved. But the real value came from the help and code review I got from my mentors --- they gave me a better idea on which learning goals to set and how to achieve them. As a graduate student, I was isolated in the world of mathematics research. It was through the internship that I re-discovered the importance of peers in the learning process.
+The analytics team I was in was an R and SQL stack. I spent 5-6 hours a day on R and SQL for my project. My coding skills improved. But the real value came from the help and code review I got from my mentors --- they gave me a better idea on which learning goals to set and how to achieve them. As a graduate student, I was isolated in the world of mathematics research. It was through the internship that I re-discovered the value of peers in the learning process.
 
 ### After the internship: Python, R (Aug 2016-May 2017)
 
