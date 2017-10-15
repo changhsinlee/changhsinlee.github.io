@@ -23,21 +23,21 @@ I was lost. I turned to another student of my advisor, Jiayi Jiang, for help. Ji
 
 I quit ESL by chapter 2. It was a great read, but it was all math and no programming. My real need now was *learning to program*. After more research, I found that the authors of ESL had put out another book called [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) (ISLR) with R exercises. I started going through the chapters with all the R exercises, and it was wonderful. The math was simpler than ESL, but I got to learn R.
 
-At the same time, I started applying to internships. Something called SQL was required on every single one of the job postings, so I looked into how to learn SQL by myself. I bought the kindle version of the book [Head First SQL](http://shop.oreilly.com/product/9780596526849.do) based on Reddit recommendations. (Warning: the kindle version was horrible, don't buy it.) The learning process was dry and painful. I had to force myself through the chapters because the value of SQL wasn't clear to me. I stopped after I finished select and where clauses, right before the chapter on joins.
+At the same time, I started applying for internships. Something called SQL was required on every single one of the job postings, so I looked into how to learn SQL by myself. I bought the kindle version of [Head First SQL](http://shop.oreilly.com/product/9780596526849.do) based on Reddit recommendations. (Warning: the kindle version was horrible, don't buy it.) The learning process was dry and painful. I had to force myself through the chapters because the value of SQL wasn't clear to me. I stopped after I finished select and where clauses, right before the chapter on joins.
 
 I spent 30 minutes a day to learn besides writing my resume and applying for jobs. In late February, I got my first response when I was at a math conference in Maryland. The email contained a few questions that I answered next day. The day after, they wanted me to take a data challenge. I almost told them I wasn't ready for that. Instead, I told myself to give it a shot. I managed to scramble together a data report with the help of ISLR, Google, and caffeine.
 
-The offer came in mid-March. Now that I had an internship lined up, I decided to pause my plan on learning so I can get as much dissertation research done as possible before the internship starts in May.
+The offer came in mid-March and I took it. Now that I had an internship lined up, I decided to pause my learning plan so I can get as much research done as possible for my dissertation before the internship starts in May.
 
 ### During the Internship: R, SQL, and Statistics (May-Aug 2016)
 
-On my first day as an intern, I read a Tufte book. I was waiting for a work laptop from IT, and my boss asked: "Have you read Tufte?" and put a copy of [The Visual Display of Quantitative Information](https://www.amazon.com/Visual-Display-Quantitative-Information/dp/1930824130) on my desk. He was cleaning the team library that day. I had never heard of Tufte, but it was a great read and an eye-opening exposition to data visualization for me.
+On my first day as an intern, I read a Tufte book. When I was waiting for a work laptop from IT, my boss asked: "Have you read Tufte?" and put a copy of [The Visual Display of Quantitative Information](https://www.amazon.com/Visual-Display-Quantitative-Information/dp/1930824130) on my desk. He was cleaning the team library that day. I had never heard of Tufte, but it was a great read and an eye-opening exposition to data visualization for me.
 
 ![tufte](/figure/source/2017-10-14-learning-skills-for-data-science/mr-tufte.png)
 
 Over the next two months, this sort of exchange happened again and again. Many of my discussions in the office pointed me to a resource in statistics that I had never heard of. The terms that my colleagues used became little conceptual gold nuggets that I could plug into the search bar to expand the boundary of my knowledge comfort zone. It was a lot of fun.
 
-The analytics team I was in was an R and SQL stack. I spent 5-6 hours a day on R and SQL for my project. My coding skills improved. But the real value came from the help and code review I got from my mentors --- they gave me a better idea on which learning goals to set and how to achieve them. As a graduate student, I was isolated in the world of mathematics research. It was through the internship that I re-discovered the value of peers in the learning process.
+The analytics team I was in was an R and SQL stack. I spent 5-6 hours a day on R and SQL for my project, and my coding skills improved. But the real value came from the help and code review I got from my mentors --- they gave me a better idea on which learning goals to set and how to achieve them. As a graduate student, I was isolated in the world of mathematics research. It was through the internship that I re-discovered the importance of peers in the learning process.
 
 ### After the internship: Python, R (Aug 2016-May 2017)
 
