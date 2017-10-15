@@ -16,7 +16,7 @@ But I knew only one language back then: MATLAB. It was for homework on partial d
 
 ![analysis-paralysis](/figure/source/2017-10-14-learning-skills-for-data-science/analysis-paralysis.png)
 
-I was lost. I turned to another student of my advisor, Jiayi Jiang, for help. Jiayi was six months away from graduation and already had several job interviews. He told me that my best career bet was going into software engineering or machine learning. I asked for more detail about the machine learning route. He then told me that all the interview questions he got were within the scope of a single book --- [Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) (ESL), which might be a good start for me. So ESL became my entry point of data science.
+I was lost. I turned to another student of my advisor, Jiayi Jiang, for help. Jiayi was six months away from graduation but already went through several job interviews. He told me that my best career bet was going into software engineering or machine learning. I asked for more detail about the machine learning route. He then told me that all the interview questions he got were within the scope of a single book --- [Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) (ESL), which might be a good start for me. So ESL became my entry point of data science.
 
 ## The Skills
 ### Before the Internship: R and SQL (Jan-May 2016)
