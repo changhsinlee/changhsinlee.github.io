@@ -14,7 +14,7 @@ I looked into three areas: management consulting, software engineering, and data
 
 But I knew only one language back then: MATLAB. It was for homework on partial differential equations. Plus, there were close to zero MATLAB jobs. I knew I had to learn another language. What could I learn in less than a year?
 
-![](/figure/source/2017-10-14-learning-skills-for-data-science/analysis-paralysis.png)
+![analysis-paralysis](/figure/source/2017-10-14-learning-skills-for-data-science/analysis-paralysis.png)
 
 I was lost. I turned to another student of my advisor, Jiayi Jiang, for help. Jiayi was six months away from graduation, and already had several job interviews. He told me that my best career bet was going into software engineering or machine learning. I asked for more detail about the machine learning route. He then told me that all the interview questions he got were within the scope of a single book --- [Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) (ESL), which might be a good start for me. So ESL became my entry point of data science.
 
@@ -33,7 +33,7 @@ The offer came in mid-March. Now that I have an internship lined up, I decided t
 
 On my first day as an intern, I read a Tufte book. I was waiting for work laptop, and my boss asked: "Have you read Tufte?" and put a copy of [The Visual Display of Quantitative Information](https://www.amazon.com/Visual-Display-Quantitative-Information/dp/1930824130) on my desk. He was cleaning the team library that day. I had never heard of Tufte, but it was a great read and an eye-opening exposition to data visualization for me.
 
-![](/figure/source/2017-10-14-learning-skills-for-data-science/mr-tufte.png)
+![tufte](/figure/source/2017-10-14-learning-skills-for-data-science/mr-tufte.png)
 
 Over the next two months, this sort of exchange happened again and again. Many of my discussions pointed me to a resource in statistics that I had never heard of. The terms that my colleague used became little gold conceptual nuggets that I could plug into the search bar to expand the comfort zone of my knowledge. It was a lot of fun.
 
@@ -47,7 +47,7 @@ Besides R, I started learning Python. Back in March, I tried to get into Python 
 
 The internship experience made me realize that the best way for me to learn was to have constant feedback on things that I did. My students gave me feedback in R, and my friend gave me feedback in Python. It worked.
 
-![](/figure/source/2017-10-14-learning-skills-for-data-science/feedback.png)
+![peer-feedback](/figure/source/2017-10-14-learning-skills-for-data-science/feedback.png)
 
 ### So, is that it?
 
