@@ -37,7 +37,7 @@ But since I've committed my time to come here, I wasn't going to sit there and d
 
 ![](/figure/source/2017-10-29-meetup-experience-dev-launchpad/comment.png)
 
-Before I moved to Charlotte in June 2017, I went to Developer Launchpad meetups every month. We worked on the coding challenges together and had many great conversations. Looking back, I didn't know how much I had to do to kick start a new career. Reinventing myself was stressful. At Developer Launchpad, I met junior developers who went thorugh or were going through similar processes, and I got to hear their stories and learn from their experience. Knowing that there were people fighting the same mental battle like me --- and that people won those battles --- kept me going despite all the failures, doubts, and frustrations that came from job my search. It was awesome.
+Before I moved to Charlotte in June 2017, I went to Developer Launchpad meetups every month. We worked on the coding challenges together and had many great conversations. Looking back, I didn't know how much I had to do to kick start a new career. Reinventing myself was stressful. At Developer Launchpad, I met junior developers who went through or were going through similar processes, and I got to hear their stories and learn. Knowing that there were people fighting the same mental battle --- and that people won those battles --- kept me going despite all the failures, doubts, and frustrations that came from my job search. It was awesome.
 
 ### Next
 
