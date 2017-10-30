@@ -110,11 +110,9 @@ img {
   max-width: 100%;
 }
 
-img + em { 
-  color: $gray;
+img + em {
   display: block; 
   text-align: center;
-  margin-top: $spacing-unit / 3;
 }
 
 // Fixes images in popup boxes from Google Translate
