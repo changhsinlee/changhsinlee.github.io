@@ -4,7 +4,7 @@ title: My Meetup Experience - Developer Launchpad
 comments: true
 ---
 
-This post follows my previous post [How I Learned Data Science Skills as a Math PhD](https://changhsinlee.github.io/learning-skills-for-data-science/). I said that meetups are awesome but didn't give my reasons. Here, I am going to share my experience on a particular meetup, the [Developer Launchpad Nashville](https://www.meetup.com/Developer-Launchpad-Nashville/), as an example of why meetups were awesome to me and the roles they played in when I was changing career.
+This post follows my previous post [How I Learned Data Science Skills as a Math PhD](https://changhsinlee.github.io/learning-skills-for-data-science/). I said that meetups are awesome but didn't give my reasons. Here, I am going to share my experience on a particular meetup, the [Developer Launchpad Nashville](https://www.meetup.com/Developer-Launchpad-Nashville/), as an example of why meetups were awesome to me and the roles they played when I was changing career.
 
 ### The Need for Company
 
