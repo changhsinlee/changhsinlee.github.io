@@ -38,11 +38,6 @@ But because I already committed my time here, I wasn't going to sit there and do
 
 Before I moved to Charlotte in June 2017, I went to Developer Launchpad meetups every month. I worked on the coding challenges and had many great conversations. Looking back, it was stressful for me to do research in mathematics while preparing myself for a different career. At Developer Launchpad, I met people who were going through or went through career changes, and I got to hear their perspectives. Knowing that there were people fighting the same mental battle like me --- and knowing that people won those battles --- motivated me to keep going despite the uncertainty and frustration in my job search process. It was awesome.
 
-<table class="image">
-<tr><td><img src="/figure/source/2017-10-29-meetups-are-awesome-dev-launchpad/renfair.jpg" alt="Developer Launchpad led me to my first giant turkey in life"/></td></tr>
-<caption align="bottom">Developer Launchpad led me to my first giant turkey in life</caption>
-</table>
-
 ### Next
 
 In the next post, I will continue on why meetups are awesome and talk about another community --- [the Penny Universty](http://www.pennyuniversity.org) --- that I found through meetups. I am going to explain what I learned from it, and as a result, helped me get a data science job.
