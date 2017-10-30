@@ -7,11 +7,11 @@ comments: true
 This post follows my previous post [How I Learned Data Science Skills as a Math PhD](https://changhsinlee.github.io/learning-skills-for-data-science/), where I left off at saying meetups are awesome. In this post, I am going to share my experience on going to a particular meetup, the Developer Launchpad Nashville, and the roles meetups played when I was preparing for a new career.
 
 ### The Need for Company
-When I returned to Nashville from my summer internship, I had mixed feelings about my future. I became confident that I could make the move to industry, but I also knew that I was far from ready for data science. How could I bridge this gap? So I started searching for tips on becoming a better programmer. After a while, I came across a Quora question that had several generic answers. But one bullet point in the answers was new --- go to meetups.
+When I returned to Nashville from my summer internship, I had mixed feelings about my future. I became confident that I could make the move to industry, but I also knew that I was far from ready for data science. How could I bridge this gap? So I started searching for tips on becoming a better programmer. After a while, I came acrossf a Quora question that had several generic answers. But one bullet point in the answers was new --- go to meetups.
 
 It was a new concept to me. When I tried to picture what a meetup would look like, all I could think of was the intro sequence of Fight Club, where the narrator hopped from one support group to another. I knew that professionals went to conferences, but what is a meetup? Who goes to a meetup? I was intrigued.
 
-![](/figure/source/2017-10-29-meetups-are-awesome-dev-launchpad/fight-club.png)
+![](/figure/source/2017-10-29-meetup-experience-dev-launchpad/fight-club.png)
 
 So I googled meetup and ended up on [meetup.com](meetup.com). The name sounded like dating site. But when I got on it and set my location to Nashville, a full page of tech meetups popped up: machine learning, data science, Python, Javascript, and more. Having little idea what I wanted, I RSVP'd for a few that would meet in the next week.
 
@@ -22,7 +22,7 @@ Some meetups in Nashville I looked into were aimed at junior developers. The onl
 
 I showed up late that day, and there were already a dozen people in the room. In the middle of them were two bearded dudes that looked like none of the programmer stereotypes we had in Taiwan. Turned out they were the hosts.
 
-![](/figure/source/2017-10-29-meetups-are-awesome-dev-launchpad/dev-launchpad.png)
+![](/figure/source/2017-10-29-meetup-experience-dev-launchpad/dev-launchpad.png)
 
 One of the two bearded dudes started explaining the agenda for the day and what to expect in the next few weeks --- we would build a website together. They had already set up a Github repository for the project, so as our first step we could:
 
@@ -34,7 +34,7 @@ And it triggered my fear --- Github was one of the tools that I avoided using si
 
 But because I already committed my time here, I wasn't going to sit there and do nothing. So I went to another guy in the room and asked for help. I told him that I didn't understand the instructions and needed help. He said he understood my pain as he had similar trouble when he started at the local coding bootcamp. He proceeded to show me everything --- installing and configuring Git, cloning the repository, editing the markdown, and pushing it back to Github. In 30 minutes I had my first push to Github. I went home happy with a sense of achievement. In 30 minutes of a meetup, I got rid of my fear of Github that I had for 6 months.
 
-![](/figure/source/2017-10-29-meetups-are-awesome-dev-launchpad/comment.png)
+![](/figure/source/2017-10-29-meetup-experience-dev-launchpad/comment.png)
 
 Before I moved to Charlotte in June 2017, I went to Developer Launchpad meetups every month. I worked on the coding challenges and had many great conversations. Looking back, it was stressful for me to do research in mathematics while preparing myself for a different career. At Developer Launchpad, I met people who were going through or went through career changes, and I got to hear their perspectives. Knowing that there were people fighting the same mental battle like me --- and knowing that people won those battles --- motivated me to keep going despite the uncertainty and frustration in my job search process. It was awesome.
 
