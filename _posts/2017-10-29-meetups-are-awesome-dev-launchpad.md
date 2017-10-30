@@ -7,7 +7,7 @@ comments: true
 This post follows my previous post [How I Learned Data Science Skills as a Math PhD](https://changhsinlee.github.io/learning-skills-for-data-science/), where I left off at saying meetups are awesome. In this post, I am going to share my experience on going to a particular meetup, the Developer Launchpad Nashville, and the roles meetups played when I was preparing for a new career.
 
 ### The Need for Company
-When I returned to Nashville from my summer internship, I had mix feelings about my future. I became confident that I can make the move to industry, but I also knew that I was far from ready for data science. How could I bridge this gap? So I started searching for tips on becoming a better programmer. After a while, I came across a Quora question that had several generic answers. But one bullet point in the answers was new --- go to meetups.
+When I returned to Nashville from my summer internship, I had mixed feelings about my future. I became confident that I can make the move to industry, but I also knew that I was far from ready for data science. How could I bridge this gap? So I started searching for tips on becoming a better programmer. After a while, I came across a Quora question that had several generic answers. But one bullet point in the answers was new --- go to meetups.
 
 It was a new concept to me. When I tried to picture what a meetup would look like, all I could think of was the intro sequence of Fight Club, where The Narrator hopped from one support group to another. I knew professionals go to conferences, but what is a meetup? Who goes to a meetup? I was intrigued.
 
