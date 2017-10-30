@@ -88,5 +88,9 @@ exclude:
   
 # Disqus comment
 # disqus_shortname: 
+
+# custom
+future: true
+timezone: America/New_York
   
 # servr::jekyll(command = "C:/tools/ruby23/bin/jekyll build")
