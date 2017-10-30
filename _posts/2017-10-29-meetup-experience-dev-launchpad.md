@@ -13,6 +13,7 @@ When I returned to Nashville from my summer internship, I had mixed feelings abo
 Meetup was a new concept to me. When I tried to picture what it would look like, all I could think of was the intro sequence of Fight Club, where the narrator hopped from one support group to another. I knew that professionals went to conferences for growth and networking, but what is a meetup? Who goes to a meetup? What does it have to do with becoming a better programmer? I was intrigued.
 
 ![](/figure/source/2017-10-29-meetup-experience-dev-launchpad/fight-club.png)
+*His name was Robert Paulson...*
 
 So I googled meetup and ended up on [meetup.com](meetup.com). It sounded like dating site. But when I got on it and set my location to Nashville, a full page of tech meetups popped up: machine learning, data science, Python, Javascript, virtual reality, and more. Having little idea what a meetup was or what I wanted, I RSVP'd for a few that were meeting in the following week.
 
