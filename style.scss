@@ -112,6 +112,8 @@ img {
 
 img + em { 
   color: $gray;
+  display: block; 
+  text-align: center;
   margin-top: $spacing-unit / 3;
 }
 
