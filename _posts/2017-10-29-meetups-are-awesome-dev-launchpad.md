@@ -38,10 +38,10 @@ But because I already committed my time here, I wasn't going to sit there and do
 
 Before I moved to Charlotte in June 2017, I went to Developer Launchpad meetups every month. I worked on the coding challenges and had many great conversations. Looking back, it was stressful for me to do research in mathematics while preparing myself for a different career. At Developer Launchpad, I met people who were going through or went through career changes, and I got to hear their perspectives. Knowing that there were people fighting the same mental battle like me --- and knowing that people won those battles --- motivated me to keep going despite the uncertainty and frustration in my job search process. It was awesome.
 
-{% include image.html
-            img="/figure/source/2017-10-29-meetups-are-awesome-dev-launchpad/renfair.jpg"
-            title="renfair"
-            caption="Developer Launchpad led me to my first giant turkey in life" %}
+![](/figure/source/2017-10-29-meetups-are-awesome-dev-launchpad/renfair.jpg)
+
+*Developer Launchpad led me to my first giant turkey in life*
+
 
 ### Next
 

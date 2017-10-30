@@ -142,6 +142,16 @@ img {
     clear: both;
 }
 
+
+.image-wrapper {
+    text-align: center;
+
+    .image-caption {
+        color: $grey-color;
+        margin-top: $spacing-unit / 3;
+    }
+}
+
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
@@ -271,14 +281,6 @@ nav {
   }
 }
 
-.image-wrapper {
-    text-align: center;
-
-    .image-caption {
-        color: $grey-color;
-        margin-top: $spacing-unit / 3;
-    }
-}
 
 .wrapper-footer {
   margin-top: 50px;
