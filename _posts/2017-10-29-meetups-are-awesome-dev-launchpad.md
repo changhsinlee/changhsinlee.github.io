@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why Meetups Are Awesome: Developer Launchpad Nashville
+title: Why Meetups Are Awesome - Developer Launchpad Nashville
 comments: true
 ---
 
