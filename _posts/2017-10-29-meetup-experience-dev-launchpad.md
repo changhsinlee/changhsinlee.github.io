@@ -26,7 +26,7 @@ I showed up late that day. There were already a dozen people in the room. In the
 
 ![](/figure/source/2017-10-29-meetup-experience-dev-launchpad/dev-launchpad.png)
 
-One of the two bearded dudes started speaking about the agenda for the day, and what to expect in the next few weeks. We were going to build a website together. They had set up a Github repository for the project, so as first steps we would:
+One of the two bearded dudes started speaking about the agenda of the day, and what to expect in the next few weeks. We were going to build a website together. They had set up a Github repository for the project, so as first steps we would:
 
 * download (clone) the repository.
 * add our name to the readme file.
