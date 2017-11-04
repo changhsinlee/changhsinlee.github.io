@@ -2,7 +2,7 @@
 layout: post
 title: How I Learned Data Science Skills as a Math PhD
 comments: true
-header-img: "figure/source/2017-10-14-learning-skills-for-data-science/analysis-paralysis.png"
+header-img: "/figure/source/2017-10-14-learning-skills-for-data-science/analysis-paralysis.png"
 tags: [data-science, math, career]
 ---
 

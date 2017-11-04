@@ -2,6 +2,7 @@
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <meta property="og:locale" content="en_US">
 
     {% if page.excerpt %}
     <meta name="description" content="{{ page.excerpt| strip_html }}" />
@@ -11,8 +12,19 @@
     <meta property="og:description" content="{{ site.description }}" />
     {% endif %}
     <meta name="author" content="{{ site.name }}" />
+    <meta name="twitter:site" content="@ChangLeeTW" />
 
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:creator" content="@ChangLeeTW">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:type" content="article">    
+    {% endif %}
+    
+    {% if page.header-img %}
+    <!-- From https://wiseodd.github.io/techblog/2016/08/15/jekyll-fb-share/ -->
+    <meta property="og:image" content="{{ site.url }}{{ page.header-img }}" />
+    <meta name="twitter:card"  content="summary_large_image">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.header-img }}">
     {% endif %}
