@@ -2,7 +2,7 @@
 layout: post
 title: How I Learned Data Science Skills as a Math PhD
 comments: true
-image: /figure/source/2017-10-14-learning-skills-for-data-science/analysis-paralysis.png
+header-img: "/figure/source/2017-10-14-learning-skills-for-data-science/analysis-paralysis.png"
 ---
 
 This post is a review on how I picked up data science skills when I was a PhD student in mathematics. The time span was from January 2016  to May 2017, before I got my job. I break it into three periods: before, during, and after my summer internship. Here, I will talk about what I did, and not what I think I should have done --- that's for another post.

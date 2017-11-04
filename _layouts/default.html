@@ -11,6 +11,12 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    
+    
+    {% if page.header-img %}
+        <!-- From https://wiseodd.github.io/techblog/2016/08/15/jekyll-fb-share/ -->
+        <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
+    {% endif %}
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
