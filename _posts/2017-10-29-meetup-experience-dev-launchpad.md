@@ -2,6 +2,7 @@
 layout: post
 title: My Meetup Experience - Developer Launchpad
 comments: true
+lang: en
 header-img: "/figure/source/2017-10-29-meetup-experience-dev-launchpad/dev-launchpad.png"
 tags: [career, meetup, programming]
 ---

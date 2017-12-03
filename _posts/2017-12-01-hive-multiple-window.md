@@ -3,6 +3,7 @@ layout: post
 title: Multiple Window Clauses in Hive Queries
 comments: true
 category: technical
+lang: en
 tags: [hive, apache hive, hadoop, sql, database]
 ---
 

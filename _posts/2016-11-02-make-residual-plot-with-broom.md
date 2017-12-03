@@ -3,6 +3,7 @@ layout: post
 title: 用broom畫殘差圖(residual plot)
 categories: [rstats, graphics]
 tags: [broom, residual, ggplot2, regression]
+lang: ch
 comments: true
 ---
 
