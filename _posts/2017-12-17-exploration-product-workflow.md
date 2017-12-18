@@ -50,10 +50,10 @@ I had solid steps for exploration, but the product was missing. In academia, the
 A common situation at work went like this. There was my supervisor, A, and me working in my cube:
 
 > (A walks by cube)
-A: Hey Chang, how's the project?
-Me: Good! We're hitting x% accuracy this week, and I'm working on so-and-so next to see if I can get the model to x+y%.
-A: What if we also try this and that? Do you think it'll help?
-Me: Yeah that might work, I'll work on those next then.
+> A: Hey Chang, how's the project?
+> Me: Good! We're hitting x% accuracy this week, and I'm working on so-and-so next to see if I can get the model to x+y%.
+> A: What if we also try this and that? Do you think it'll help?
+> Me: Yeah that might work, I'll work on those next then.
 
 I had this kind of conversations with A several times a week. What I never realized was that *the two questions were for different stages of a project*. When A asked about the project, what A wanted to know was where I was on the *product*, and the idea A proposed for me to work on was about *exploration*. Because I didn't understand this line between exploration and product, I was mixing up these two types of questions. As a result, the workflow of my project was mixed up, and the workload of managing this project became a monster that never stopped growing.
 
