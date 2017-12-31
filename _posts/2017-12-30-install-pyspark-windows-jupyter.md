@@ -55,6 +55,7 @@ After getting all the items in section A, let's set up PySpark.
     | HADOOP_HOME | D:\spark\spark-2.2.1-bin-hadoop2.7 |
     | PYSPARK_DRIVER_PYTHON | jupyter |
     | PYSPARK_DRIVER_PYTHON_OPTS | notebook |
+    {: .tablelines}
 
 
     ![add variable](/figure/source/2017-12-30-install-pyspark-windows-jupyter/add-variable.png)
@@ -66,6 +67,7 @@ After getting all the items in section A, let's set up PySpark.
     | Name | Value |
     |------|-------|
     | JAVA_HOME | D:\Program~1\Java\jdk1.8.0_121 |
+    {: .tablelines}
 
     If JDK is installed under `\Program Files (x86)`, then replace the `Program~1` part by `Program~2` instead. In my experience, this error only occurs in Windows 7, and I think it's because Spark couldn't parse the space in the folder name.
 
