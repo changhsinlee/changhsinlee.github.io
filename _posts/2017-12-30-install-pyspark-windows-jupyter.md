@@ -4,7 +4,7 @@ title: How to Install and Run PySpark in Jupyter Notebook on Windows
 comments: true
 lang: en
 category: technical
-header-img: "/figure/source/2017-12-30-install-pyspark-windows-jupyter/first-select2.png"
+header-img: "/figure/source/2017-12-30-install-pyspark-windows-jupyter/header.png"
 tags: [data-science, pyspark, spark]
 ---
 
