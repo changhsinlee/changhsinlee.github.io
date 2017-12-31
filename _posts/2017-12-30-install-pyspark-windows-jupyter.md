@@ -60,7 +60,7 @@ After getting all the items in section A, let's set up PySpark.
 
     ![add variable](/figure/source/2017-12-30-install-pyspark-windows-jupyter/add-variable.png)
 
-4. In the same environment variable settings window, look for the `Path` or `PATH` variable, click edit and add `D:\spark\spark-2.2.1-bin-hadoop2.7\bin` to it. In Windows 7 you need to separate the values in `Path` with a `;`
+4. In the same environment variable settings window, look for the `Path` or `PATH` variable, click edit and add `D:\spark\spark-2.2.1-bin-hadoop2.7\bin` to it. In Windows 7 you need to separate the values in `Path` with a semicolon `;` between the values.
 
 5. (Optional, if see Java related error in step C) Find the installed Java JDK folder from step A5, for example, `D:\Program Files\Java\jdk1.8.0_121`, and add the following environment variable
 
