@@ -14,25 +14,25 @@ When I write PySpark code, I use Jupyter notebook to test my code before submitt
 
 1. Spark distribution from [spark.apache.org](https://spark.apache.org/downloads.html)
 
-![download Spark](/figure/source/2017-12-30-install-pyspark-windows-jupyter/download-spark.png)
+    ![download Spark](/figure/source/2017-12-30-install-pyspark-windows-jupyter/download-spark.png)
 
 2. Python and Jupyter Notebook. You can get both by installing the Python 3.x version of [Anaconda distribution](https://www.anaconda.com/download/).
 
 3. `winutils.exe` --- a Hadoop binary for Windows --- from Steve Loughran's [GitHub repo](https://github.com/steveloughran/winutils/). Go to the corresponding Hadoop version in the Spark distribution and find `winutils.exe` under /bin. For example, https://github.com/steveloughran/winutils/blob/master/hadoop-2.7.1/bin/winutils.exe .
 
-![download winutils](/figure/source/2017-12-30-install-pyspark-windows-jupyter/download-winutils.png)
+    ![download winutils](/figure/source/2017-12-30-install-pyspark-windows-jupyter/download-winutils.png)
 
 4. The `findspark` Python library, which can be installed by running `python -m pip install findspark` either in Windows command prompt or Git bash if Python is installed in item 2. You can find command prompt by searching `cmd` in the search box.
 
-![cmd](/figure/source/2017-12-30-install-pyspark-windows-jupyter/cmd2.png)
+    ![cmd](/figure/source/2017-12-30-install-pyspark-windows-jupyter/cmd2.png)
 
 5. If you don't have Java or your Java version is 7.x or less, download and install Java from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/index.html). I recommend getting the latest JDK (current version 9.0.1).
 
-![download java](/figure/source/2017-12-30-install-pyspark-windows-jupyter/download-java.png)
+    ![download java](/figure/source/2017-12-30-install-pyspark-windows-jupyter/download-java.png)
 
 6. If you don't know how to unpack a .tgz file on Windows, you can download and install [7-zip](http://www.7-zip.org/download.html) on Windows to unpack the .tgz file from Spark distribution in item 1 by right-clicking on the file icon and select `7-zip > Extract Here`.
 
-![download 7zip](/figure/source/2017-12-30-install-pyspark-windows-jupyter/download-7zip.png)
+    ![download 7zip](/figure/source/2017-12-30-install-pyspark-windows-jupyter/download-7zip.png)
 
 ## B. Installing PySpark
 
@@ -40,7 +40,7 @@ After getting all the items in section A, let's set up PySpark.
 
 1. Unpack the .tgz file. For example, I unpacked with 7zip from step A6 and put mine under `D:\spark\spark-2.2.1-bin-hadoop2.7`
 
-![unzip tar](/figure/source/2017-12-30-install-pyspark-windows-jupyter/unzip-tar-2.png)
+    ![unzip tar](/figure/source/2017-12-30-install-pyspark-windows-jupyter/unzip-tar-2.png)
 
 2. Move the `winutils.exe` downloaded from step A3 to the `\bin` folder of Spark distribution. For example, `D:\spark\spark-2.2.1-bin-hadoop2.7\bin\winutils.exe`
 
