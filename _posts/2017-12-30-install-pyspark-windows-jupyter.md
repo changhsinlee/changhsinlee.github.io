@@ -79,7 +79,7 @@ To run Jupyter notebook, open Windows command prompt or Git Bash and run `jupyte
 
 Once inside Jupyter notebook, open a Python 3 notebook
 
-![add variable](/figure/source/2017-12-30-install-pyspark-windows-jupyter/open-notebook.png)
+![open notebook](/figure/source/2017-12-30-install-pyspark-windows-jupyter/open-notebook.png)
 
 In the notebook, run the following code
 
@@ -97,10 +97,10 @@ df.show()
 
 When you press run, it might trigger a Windows firewall pop-up. I pressed cancel on the pop-up as blocking the connection doesn't affect PySpark.
 
-![add variable](/figure/source/2017-12-30-install-pyspark-windows-jupyter/firewall-warning.png)
+![firewall warning](/figure/source/2017-12-30-install-pyspark-windows-jupyter/firewall-warning.png)
 
 If you see the following output, then you have installed PySpark on your Windows system!
 
-![add variable](/figure/source/2017-12-30-install-pyspark-windows-jupyter/first-select2.png)
+![first select](/figure/source/2017-12-30-install-pyspark-windows-jupyter/first-select2.png)
 
 Please let me know on Twitter or in the comments section if you have any question.
