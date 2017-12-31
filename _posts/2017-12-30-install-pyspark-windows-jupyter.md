@@ -22,7 +22,7 @@ When I write PySpark code, I use Jupyter notebook to test my code before submitt
 
     ![download winutils](/figure/source/2017-12-30-install-pyspark-windows-jupyter/download-winutils.png)
 
-4. The `findspark` Python library, which can be installed by running `python -m pip install findspark` either in Windows command prompt or Git bash if Python is installed in item 2. You can find command prompt by searching `cmd` in the search box.
+4. The `findspark` Python module, which can be installed by running `python -m pip install findspark` either in Windows command prompt or Git bash if Python is installed in item 2. You can find command prompt by searching `cmd` in the search box.
 
     ![cmd](/figure/source/2017-12-30-install-pyspark-windows-jupyter/cmd2.png)
 
@@ -47,7 +47,7 @@ After getting all the items in section A, let's set up PySpark.
 
 3. Add environment variables: the environment variables let Windows find where the files are when we start the PySpark kernel. You can find the environment variable settings by putting "environ..." in the search box.
 
-    The variables to be added are, in my example,
+    The variables to add are, in my example,
 
     | Name | Value |
     |------|-------|
@@ -92,7 +92,7 @@ from pyspark.sql import SparkSession
 spark = SparkSession.builder.getOrCreate()
 
 df = spark.sql('''select 'spark' as hello ''')
-df.show
+df.show()
 ```
 
 When you press run, it might trigger a Windows firewall pop-up. I pressed cancel on the pop-up as blocking the connection doesn't affect PySpark.
