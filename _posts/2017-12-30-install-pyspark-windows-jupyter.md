@@ -66,7 +66,7 @@ After getting all the items in section A, let's set up PySpark.
 
     | Name | Value |
     |------|-------|
-    | JAVA_HOME | D:\Program~1\Java\jdk1.8.0_121 |
+    | JAVA_HOME | D:\Progra~1\Java\jdk1.8.0_121 |
     {: .tablelines}
 
     If JDK is installed under `\Program Files (x86)`, then replace the `Program~1` part by `Program~2` instead. In my experience, this error only occurs in Windows 7, and I think it's because Spark couldn't parse the space in the folder name.
