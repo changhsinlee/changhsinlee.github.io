@@ -10,7 +10,7 @@ tags: [data-science, job-search, PhD]
 
 This post is a review of my data science job search last year. When I started my job search last spring, I tried to read up on other's experience so I could know what to expect, but they were far and between, and even fewer were told from a PhD student's perspective. It is scary to tread down an unknown path, so I want to share my own experience here.
 
-### The process
+## The process
 
 During my job search, I focused on data science positions in three industries --- tech, retail, and sports. I sent out a total of 60 applications on data science positions in a 6 month period.
 
@@ -22,7 +22,7 @@ And by February, I was 0 for 10. All rejected.
 
 It was the reality check that I needed. I overestimated my odds. My approach had to change. After taking time to think the process through, I came up with a plan and a list of things that I need to do.
 
-#### 1. I need to apply for more jobs
+### 1. I need to apply for more jobs
 
 I thought I was a fine candidate, but the data has showed otherwise. At least, in the screening stage of the hiring process, I didn't stand out among the candidates. I was probably in the middle of bell curve.
 
@@ -30,7 +30,7 @@ If I don't stand out, how can I possibly win? The conclusion was that I need to 
 
 I thought I can get an offer within 10 interviews, but how many applications does that translate to? If 10% of the companies will give me a call, I will need around 100 applications in order to to get 10 interviews. It's also likely that I need more than 150 applications. In any case, 10 applications in two months wouldn't cut it.
 
-#### 2. I need to submit faster
+### 2. I need to submit faster
 
 To send out more applications in the same amount of time, I need to change the way I prepare my applications. After a quick review, I found that the biggest bottleneck in my process was the cover letter.
 
@@ -38,7 +38,7 @@ So, I decided to run an experiment --- I'm going to ditch the cover letters and 
 
 I didn't realize at the time when I chose to stop writing cover letters, but my workload increased by a lot in March and April compared to February because I had to prepare for my dissertation defense, so saving time on job applications worked out both ways.
 
-#### 3. I need to find quality job postings
+### 3. I need to find quality job postings
 
 I kept track of all of my applications --- how old was the job when I applied, where did I find it, when did I send out and hear back, etc. After sending out another 20 resumes, I started getting calls, and I used this data to see if I can improve my odds. The two job boards I used were LinkedIn and Indeed, and from what I saw,
 
@@ -53,7 +53,7 @@ By the time I accepted an offer, I had sent out 60 applications. Out of 60, ther
 
 I could talk about interview as well, but that will best fit into another post.
 
-### Some thoughts when I look back
+## Some thoughts when I look back
 
 A couple months into my current job, I came across a quote from Cleveland Browns' general manager, Paul DePodesta, when he was interviewed by Sports Illustrated before the amateur draft in 2017:
 
@@ -63,7 +63,7 @@ I was a little surprised that he admitted the Browns had no better clue than any
 
 My best course of action that I could come up with was to apply to as many jobs as possible. Instead of spending time researching how should I perfect my applications, odds will be on my side if I trusted the process and applied to as many job as possible. When I collected enough data, then I can go back and improve my process.
 
-### Appendix
+## Appendix
 
 If my previous estimate of 10 applications to 1 interview and 10 interviews to 1 offer were correct, then a simulation of 10,000 times says that it could be 60 to 150 applications before I got an offer.
 
