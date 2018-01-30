@@ -18,7 +18,7 @@ Meetup was a new concept to me, so I tried to picture it. All I could think of, 
 ![](/figure/source/2017-10-29-meetup-experience-dev-launchpad/fight-club.png)
 *His name is Robert Paulson...*
 
-Google led me to [meetup.com](meetup.com). Although it sounded like a dating site to me, when I got on it and set my location to Nashville, a full page of local tech meetups popped up: machine learning, data science, Python, Javascript, virtual reality. Having no idea what a meetup was, I RSVP'd for a few that looked interesting.
+Google led me to [meetup.com](https://meetup.com). Although it sounded like a dating site to me, when I got on it and set my location to Nashville, a full page of local tech meetups popped up: machine learning, data science, Python, Javascript, virtual reality. Having no idea what a meetup was, I RSVP'd for a few that looked interesting.
 
 The first meetup that I went to was the machine learning group. Going to a strange place to meet strangers was scary. I had a hard time getting out of my house and driving to the venue that evening. When I arrived, however, there was food from Pei Wei. After talking with some other first-timers in the line, I felt this meetup thing wasn't as awkward as I expected it to be. Following the meal was a talk. The content was way above my head, but I knew that if I keep coming back, one day I will understand what the talk was about. I decided to see what's out there and go to more meetups.
 
