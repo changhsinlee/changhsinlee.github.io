@@ -22,7 +22,7 @@ It has been six months into my first job. The codebase in my project grew every 
 
 Back in Nashville, I hung out with a few software developers. In software development, there were several common project management methods and principles that were results of years of experiments in the industry. One example is Agile. But in the data science world, I had not been able to find a principle to follow. So, I took on my work project the same way I took on my graduate school project --- try some stuff, then try some more stuff, then try even more stuff. The pace was slow in graduate school, and I could be trying new stuff all day and still got away with it. The same approach created a problem in business. I knew something was missing in the way I manage my project, but I didn't know how to address or solve this problem.
 
-Then one day, I came across a blog post by Edwin Thoen. It clicked.
+Then one day, I came across a blog post by [@edwin_thoen](https://twitter.com/edwin_thoen). It clicked.
 
 ## Two stages of a data science project
 
