@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Turn Python Functions into PySpark Functions
+title: How to Turn Python Functions into PySpark Functions (UDF)
 comments: true
 lang: en
 category: technical
