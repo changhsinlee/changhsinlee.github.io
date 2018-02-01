@@ -329,7 +329,7 @@ Unlike most Spark functions, however, those `print()` runs inside each executor,
 spark.sparkContext.uiWebUrl
 ```
 
-One reason of slowness I ran into was because my data was too small in terms of file size --- when the dataframe is small enough, Spark sends the entire dataframe to one and only one executor and leve other executors waiting. In other words, Spark doesn't distributing the Python function as desired if the dataframe is too small.
+One reason of slowness I ran into was because my data was too small in terms of file size --- when the dataframe is small enough, Spark sends the entire dataframe to one and only one executor and leave other executors waiting. In other words, Spark doesn't distributing the Python function as desired if the dataframe is too small.
 
 To fix this, I repartitioned the dataframe before calling the UDF. For example,
 
