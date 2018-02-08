@@ -46,51 +46,15 @@ The first thing to do in making a calibration plot is to pick the number of bins
 
 I am going to plot the calibration curves for two models --- one for logistic regression, and one for random forest. Both models produce class probabilities on `Survived` based on two features `Age` and `Sex`.
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
+    +----+------+--------+
+    | Age|   Sex|Survived|
+    +----+------+--------+
+    |22.0|  male|       0|
+    |38.0|female|       1|
+    |26.0|female|       1|
+    +----+------+--------+
 
-    .dataframe thead th {
-        text-align: left;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Age</th>
-      <th>Sex</th>
-      <th>Survived</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>22.0</td>
-      <td>male</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>38.0</td>
-      <td>female</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>26.0</td>
-      <td>female</td>
-      <td>1</td>
-    </tr>
-  </tbody>
-</table>
-</div>
 
 ### Preprocessing
 
