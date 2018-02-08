@@ -10,6 +10,7 @@ tags: [data science, python, scikit-learn, classification, statistics, calibrati
 
 When I build a machine learning model for classification problems, one of the questions that I ask myself is _why is my model not crap?_ Sometimes I feel that developing a model is like holding a grenade, and calibration is one of my safety pins. In this post, I will walk through the concept of calibration, then show in Python how to make diagnostic calibration plots.
 
+##### [Here's link to the Jupyter notebook for this post](https://github.com/changhsinlee/changhsinlee.github.io/blob/master/notebook/2018-02-07-python-calibration-plot/titanic-calibration-example.ipynb)
 
 ## Evaluating probabilistic predictions
 
@@ -40,7 +41,7 @@ I'm going to show how I made this plot in Python and what I saw in it.
 
 ## A Python example
 
-##### The Jupyter notebook for this example [can be found in  here](https://github.com/changhsinlee/changhsinlee.github.io/blob/master/notebook/2018-02-07-python-calibration-plot/titanic-calibration-example.ipynb)
+
 
 The first thing to do in making a calibration plot is to pick the number of bins. In this example, I binned the probabilities into 10 bins between 0 and 1: from 0 to 0.1, 0.1 to 0.2, ..., 0.9 to 1. The data I used is [the Titanic dataset from Kaggle](https://www.kaggle.com/c/titanic), where the label to predict is a binary variable `Survived`.
 
