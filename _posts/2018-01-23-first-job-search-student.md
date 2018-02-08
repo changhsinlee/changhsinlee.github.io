@@ -28,7 +28,7 @@ I thought I was a fine candidate, but the data has showed otherwise. At least, i
 
 If I don't stand out, how can I possibly win? The conclusion was that I need to become aggresive on my job search --- I am going to take the shotgun approach and shoot as many targets as possible.
 
-I thought I can get an offer within 10 interviews, but how many applications does that translate to? If 10% of the companies will give me a call, I will need around 100 applications in order to to get 10 interviews. It's also likely that I need more than 150 applications. In any case, 10 applications in two months wouldn't cut it.
+I thought I can get an offer within 10 interviews, but how many applications does that translate to? If 10% of the companies will give me a call, I will need around 100 applications in order to get 10 interviews. It's also likely that I need more than 150 applications. In any case, 10 applications in two months wouldn't cut it.
 
 ### 2. I need to submit faster
 
