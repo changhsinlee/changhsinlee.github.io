@@ -93,5 +93,9 @@ exclude:
 # custom
 future: true
 timezone: America/New_York
+
+# SEO
+plugins:
+  - jekyll-seo-tag
   
 # servr::jekyll(command = "C:/tools/ruby23/bin/jekyll build")
