@@ -6,6 +6,7 @@ category: meta
 header-img: "/figure/source/2018-01-23-first-job-search-student/simulation.png"
 lang: en
 tags: [data-science, job-search, PhD]
+description: This post is a review of my data science job search last year as a PhD student.
 ---
 
 This post is a review of my data science job search last year. When I started my job search last spring, I tried to read up on other's experience so I could know what to expect, but they were far and between, and even fewer were told from a PhD student's perspective. It is scary to tread down an unknown path, so I want to share my own experience here.

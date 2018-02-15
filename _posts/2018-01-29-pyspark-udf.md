@@ -6,6 +6,7 @@ lang: en
 category: technical
 header-img: "/figure/source/2018-01-29-pyspark-udf/pyspark-distributed-function.png"
 tags: [data-science, pyspark, spark, udf]
+description: How can I distribute a Python function in PySpark to speed up the computation with the least amount of work?
 ---
 
 

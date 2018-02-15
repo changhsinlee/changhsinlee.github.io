@@ -6,6 +6,7 @@ lang: en
 category: technical
 header-img: "/figure/source/2018-02-07-python-calibration-plot/python-calibration.png"
 tags: [data science, python, scikit-learn, classification, statistics, calibration]
+description: In this post, I will walk through the concept of calibration, then show in Python how to make diagnostic calibration plots.
 ---
 
 When I build a machine learning model for classification problems, one of the questions that I ask myself is _why is my model not crap?_ Sometimes I feel that developing a model is like holding a grenade, and calibration is one of my safety pins. In this post, I will walk through the concept of calibration, then show in Python how to make diagnostic calibration plots.

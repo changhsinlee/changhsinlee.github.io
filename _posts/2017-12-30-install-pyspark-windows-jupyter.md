@@ -6,6 +6,7 @@ lang: en
 category: technical
 header-img: "/figure/source/2017-12-30-install-pyspark-windows-jupyter/header.png"
 tags: [data-science, pyspark, spark]
+description: In this post, I will show you how to install and run PySpark locally in Jupyter Notebook on Windows 7 and 10.
 ---
 
 When I write PySpark code, I use Jupyter notebook to test my code before submitting a job on the cluster. In this post, I will show you how to install and run PySpark locally in Jupyter Notebook on Windows. I've tested this guide on a dozen Windows 7 and 10 PCs in different languages.
