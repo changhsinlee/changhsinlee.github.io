@@ -25,7 +25,7 @@ It was the reality check that I needed. I overestimated my odds. My approach had
 
 ### 1. I need to apply for more jobs
 
-I thought I was a fine candidate, but the data has showed otherwise. At least, in the screening stage of the hiring process, I didn't stand out among the candidates. I was probably in the middle of bell curve.
+I thought I was a fine candidate, but the data had shown otherwise. At least, in the screening stage of the hiring process, I didn't stand out among the candidates. I was probably in the middle of bell curve.
 
 If I don't stand out, how can I possibly win? The conclusion was that I need to become aggresive on my job search --- I am going to take the shotgun approach and shoot as many targets as possible.
 
