@@ -71,3 +71,5 @@ If my previous estimate of 10 applications to 1 interview and 10 interviews to 1
 ![simulated-job-search](/figure/source/2018-01-23-first-job-search-student/simulation.png)
 
 LinkedIn still displayed the number of people applied for each job before summer of last year. As far as I can remember, for data science job postings, the number of applications would hit 150 in two weeks and 300-500 in a month. I personally find the number intimidating, but this number also made me feel less sorry when I got rejected.
+
+If you have any question, feel free to tweet me at [@ChangLeeTW](https://twitter.com/ChangLeeTW) and I'll do my best to answer.
