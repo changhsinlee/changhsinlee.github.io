@@ -9,7 +9,7 @@ tags: [data science, R, hackathon]
 description: My experience and a lesson from going to my first Hackathon.
 ---
 
-Last November, I went to my first hackathon, the Queen City Hackathon, in Charlotte. Here's my experience with the event with a lesson I learned from it.
+Last November, I went to my first hackathon, the Queen City Hackathon, in Charlotte. Here's my review on the event with a lesson I learned from it.
 
 ## Before the Hackathon
 
