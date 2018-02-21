@@ -9,20 +9,20 @@ tags: [data science, R, hackathon]
 description: My experience and a lesson from going to my first Hackathon.
 ---
 
-Last November, I went to my first hackathon in Charlotte, the Queen City Hackathon. Here's my experience with a lesson I learned.
+Last November, I went to my first hackathon, the Queen City Hackathon, in Charlotte. Here's my experience with the event with a lesson I learned from it.
 
 ## Before the Hackathon
 
-I heard about the hackathon in September. It was a hackathon with a data science focus. I wanted to go, but didn't want to team up with strangers, so I signed up with another data scientist from my team, Brad. Neither of us had been to a hackathon, and we had little planning before the event.
+I heard about the hackathon in September. It was a hackathon with a data science focus. I wanted to go, but didn't want to team up with strangers, so I signed up with another data scientist from my team, Brad. Neither of us had been to an event like this, and we had little planning before the event.
 
-When I signed up for the hackathon, my only goal was to learn new tools. If we can win the cash prize, then great. But winning was unlikely without a plan. I told myself that I will use a tool that I have never touched before, so I could use this opportunity to improve my technical skills.
+When I signed up for the hackathon, my only goal in mind was to learn new tools. If we can win the cash prize, then great. But winning was unlikely without a plan. I told myself that I will use a tool that I have never touched before, so I could use this opportunity to improve my technical skills.
 
 
 ## Day 1
 
-Brad and I got to the venue at 6 PM on Friday. When we got there, I was surprised to see how many people were in the venue, and how many of them brought sleeping bags. We didn't bring any. After a brief introduction to the rules and the datasets, we sat down at a long table in the middle of the room. Two other participants, Mahua and Noelline, asked if they could join us. We said yes, why not, and started working together.
+Brad and I got to the venue at 6 PM on Friday. I was surprised to see how many people were in the venue, and how many of them brought sleeping bags. We didn't bring any. After a brief introduction to the rules and the datasets, we sat down at a long table in the middle of the room. Two other participants, Mahua and Noelline, asked if they could join us. We said yes, why not, and started working together.
 
-There were six datasets for us to choose from, and the first thing we did was picking a theme. We decided to use 2 of the 6 datasets --- police arrest records and 311 requests --- and tell a story about the neighborhoods in Charlotte. Because we had never seen the data before, we also decided to explore two different directions at the same time. Mahua and Noelline dived into criminal charges, while Brad and I work on an exploratory map. Our thought was that, by plotting the arrests and 311 requests together on a map, maybe we could eyeball the correlations between the two datasets.
+There were six datasets for us to choose from, and the first thing we did was picking a theme. We decided to use 2 of the 6 datasets --- Charlotte Police Arrest Records and 311 Service Requests --- and tell a story about the neighborhoods in Charlotte. Because we had never seen the data before, we also decided to explore two different directions at the same time. Mahua and Noelline dived into criminal charges, while Brad and I work on an exploratory map. Our thought was that, by plotting the arrests and 311 requests together on a map, maybe we could eyeball the correlations between the two datasets.
 
 Making a maps sounded easy, but we had never worked with geographical data. It turned out that arrest records only had street names but not numbers, while 311 requests had only latitudes and longitudes. It took us 4 hours to clean the data and aggregate the data by zip code. When Brad and I made our first map, it was past midnight. We called it a day.
 
@@ -45,6 +45,6 @@ On the other hand, most finalists made apps. They also presented their products 
 
 I've seen a similar pattern at work with internal clients. Some of our team projects put out interactive apps --- even in the earliest stage of the project --- that let our clients play with the data they are familiar with. If the clients liked the product or the idea of the project, then they came back with comments and requests, and they became early investors in the project.
 
-The same pattern applies to hackathons. In business, reports and insights can be more valuable than apps, but a good hackathon pitch is a good startup pitch --- they draw investments. There's probably a good reason that why most data science startups have apps as their product and not reports.
+The same pattern applies to hackathons. In business, reports and insights can be more valuable than apps, but a good hackathon pitch is a good startup pitch --- they draw investments. There's a good reason why most tech startups make apps and not reports.
 
 I didn't know how to build apps, but the hackathon showed me some great tools with great examples. I'll be more prepared next time.
