@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Experience at 2017 Queen City Hackathon
+title: My First Hackathon
 comments: true
 lang: en
 category: meta
