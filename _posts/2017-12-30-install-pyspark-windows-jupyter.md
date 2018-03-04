@@ -107,7 +107,7 @@ If you see the following output, then you have installed PySpark on your Windows
 
 Please let me know on Twitter or in the comments section if you have any question.
 
-Other PySpark posts from me --- 
+Other PySpark posts from me --- (last updated 3/4/2018)
 
 * [How to Turn Python Functions into PySpark Functions (UDF)](/pyspark-udf/)
 * [PySpark Dataframe Basics](/pyspark-dataframe-basics/)
