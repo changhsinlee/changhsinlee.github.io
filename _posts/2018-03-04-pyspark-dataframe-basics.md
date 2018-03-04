@@ -17,7 +17,7 @@ I'm using Spark 2.1.1, so there may be new functionalities not in this post as t
 
 # Dataframe basics for PySpark
 
-Spark has moved to a dataframe API since version 2.0. A dataframe in Spark is similar to a SQL table, an R dataframe, or a pandas dataframe. In Spark, however, it is actually a wrapper around RDDs, the basic data structure in Spark. Working with dataframes, in my opinion, is easier than RDD most of the time.
+Spark has moved to a dataframe API since version 2.0. A dataframe in Spark is similar to a SQL table, an R dataframe, or a pandas dataframe. In Spark, dataframe is actually a wrapper around RDDs, the basic data structure in Spark. In my opinion, however, working with dataframes is easier than RDD most of the time.
 
 There are a few ways to read data into Spark as a dataframe. In this post, I will load the first few rows of Titanic data on Kaggle into a pandas dataframe, then convert it into a Spark dataframe.
 
@@ -776,7 +776,7 @@ Another common cause of performance problems for me was having too many partitio
 
 * Keep the partitions to ~128MB.
 
-In PySpark, however, there is no way to infer the size of the dataframe partitions. In my experience, as long as the partitions are not 10KB or 10GB, but in the order of MBs, then it shouldn't be too much of a problem.
+In PySpark, however, there is no way to infer the size of the dataframe partitions. In my experience, as long as the partitions are not 10KB or 10GB  but are in the order of MBs, then the partition size shouldn't be too much of a problem.
 
 
 To check the number of partitions, use `.rdd.getNumPartitions()`
