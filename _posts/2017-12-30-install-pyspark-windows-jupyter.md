@@ -105,7 +105,7 @@ If you see the following output, then you have installed PySpark on your Windows
 ![first select](/figure/source/2017-12-30-install-pyspark-windows-jupyter/first-select2.png)
 
 
-Please let me know on Twitter or in the comments section if you have any question.
+Please leave a comment section or tweet me at [@ChangLeeTW](https://twitter.com/ChangLeeTW) if you have any question.
 
 Other PySpark posts from me (last updated 3/4/2018) --- 
 
