@@ -13,7 +13,7 @@ In this post, I will use a toy data to show some basic dataframe operations that
 
 I'm using Spark 2.1.1, so there may be new functionalities not in this post as the latest version is 2.3.0. You can find all of the current dataframe operations in the [source code](https://github.com/apache/spark/blob/master/python/pyspark/sql/dataframe.py) and the [API documentation](http://spark.apache.org/docs/latest/api/python/index.html).
 
-* [Here's the link to the jupyter notebook for this post](/notebook/2018-03-04-pyspark-dataframe-basics/dataframe-basics.ipynb)
+* [Here's the link to the jupyter notebook for this post](https://github.com/changhsinlee/changhsinlee.github.io/blob/master/notebook/2018-03-04-pyspark-dataframe-basics/dataframe-basics.ipynb)
 
 # Dataframe basics for PySpark
 

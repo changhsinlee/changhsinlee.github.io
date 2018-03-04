@@ -104,4 +104,10 @@ If you see the following output, then you have installed PySpark on your Windows
 
 ![first select](/figure/source/2017-12-30-install-pyspark-windows-jupyter/first-select2.png)
 
+
 Please let me know on Twitter or in the comments section if you have any question.
+
+Other PySpark posts from me --- 
+
+* [How to Turn Python Functions into PySpark Functions (UDF)](/pyspark-udf/)
+* [PySpark Dataframe Basics](/pyspark-dataframe-basics/)
