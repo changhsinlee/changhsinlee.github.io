@@ -45,6 +45,6 @@ On the other hand, most finalists made apps. They also presented their products 
 
 I've seen a similar pattern at work with internal clients. Some of our team projects put out interactive apps --- even in the earliest stage of the project --- that let our clients play with the data they are familiar with. If the clients liked the product or the idea of the project, then they came back with comments and requests, and they became early investors in the project.
 
-The same pattern applies to hackathons. In business, reports and insights can be more valuable than apps, but a good hackathon pitch is a good startup pitch --- they draw investments. There's a good reason why most tech startups make apps and not reports.
+The same pattern applies to hackathons. In business, reports and insights can be more valuable than apps, but _a good hackathon pitch is a good startup pitch_ --- they draw investments. There's a good reason why most tech startups make apps and not reports.
 
 I didn't know how to build apps, but the hackathon showed me some great tools with great examples. I'll be more prepared next time.
