@@ -10,8 +10,14 @@ layout: default
           <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
           
           <div class="date">
-            {{ post.date | date: '%B %d, %Y' }}
+            {{ post.date | date: '%B %d, %Y' }} 
+                {% if site.disqus_shortname %}
+                    &middot;
+                    <a href="{{ site.url }}{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>
+                {% endif %}
           </div>
+          
+          
           
           <div class="entry">
             {{ post.excerpt }}
