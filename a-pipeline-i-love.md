@@ -3,6 +3,7 @@ layout: page
 title: What I would love the pipeline to look like
 comments: false
 lang: en
+permalink: /a-pipeline-i-love/
 ---
 
 The ideal pipeline for me is one that minimizes the time I spend in 2 and 3 this cycle
