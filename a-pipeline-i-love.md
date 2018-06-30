@@ -32,4 +32,4 @@ If the score bump is better than a predefined number, then I know I want to keep
 
 ![step5](figure/source/pipeline/step5.png)
 
-The code I should spend the most time on should be the part where I think about how to make new features or use the features in a different way to spin up a model.
+The part where I spend the most time on should be the part where I think about how to make new features or use the features in a different way to spin up a model, not the actual process of testing this feature against current model.
