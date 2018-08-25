@@ -97,16 +97,20 @@ _It is a dangerous assumption._
 
 At PyOhio last month, chatting with [@ChrisPoptic](https://twitter.com/ChrisPoptic) made me realize one thing. One way to classify data is to check whether how much of a "social component" it contains --
 
-Data with low social component:
-1. Things related to image, video, audio. Human perception of things rarely change over our lifespan. A dog is still a dog, and a cat is still a cat. There is good reason to assume stationary data.
-2. Biological --- same reason. What makes a drug work will probably still work the day I die.
+Data with low social component -- 
+* Things related to image, video, audio.
 
-Data with high social component ---
+  Human perception of things rarely change over our lifespan. A dog is still a dog, and a cat is still a cat. There is good reason to assume stationary data.
+
+* Biological -- same reason. What makes a drug work will probably still work the day I die.
+
+Data with high social component --
+
 * Sales
 * Interest rates
 * Election
 * Crime
-* Basically anything that involves human behavior (is the process of labeling cat pictures not behavioral?...hmm. Probably not.)
+* Basically anything that involves human behavior (is the process of labeling cat pictures not behavioral? Hmm... let's say it's not.)
 
 If you are doing image classification research, then I think there is really no reason to care about the chronological order of your train/validation/test sets.
 
