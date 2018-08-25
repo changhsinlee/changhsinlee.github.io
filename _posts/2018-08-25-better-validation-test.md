@@ -24,7 +24,7 @@ or this paragraph from [Elements of Statistical Learning](https://web.stanford.e
 
 > An independent test set would give us a more satisfactory means for comparing the different methods.
 
-Both of them are quite long. From the books, it sounds like the goal of validation and test is to pick the best model.
+From the books, it sounds like the goal of validation and test is to pick the best model. 
 
 ### But picking the best model for what?
 
