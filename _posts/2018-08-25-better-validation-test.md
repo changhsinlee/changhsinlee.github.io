@@ -24,7 +24,7 @@ or this paragraph from [Elements of Statistical Learning](https://web.stanford.e
 
 > An independent test set would give us a more satisfactory means for comparing the different methods.
 
-From the books, it sounds like the goal of validation and test is to pick the best model. 
+From the books, it sounds like the goal of validation and test is to pick the best model.
 
 ### But picking the best model for what?
 
@@ -95,7 +95,7 @@ One common assumption in building models, at least in some academia circles, is 
 
 _It is a dangerous assumption._
 
-In PyOhio, chatting with Chris made me realize one thing. One way to classify data is to check whether how much of a "social component" it contains --
+At PyOhio last month, chatting with [@ChrisPoptic](https://twitter.com/ChrisPoptic) made me realize one thing. One way to classify data is to check whether how much of a "social component" it contains --
 
 Data with low social component:
 1. Things related to image, video, audio. Human perception of things rarely change over our lifespan. A dog is still a dog, and a cat is still a cat. There is good reason to assume stationary data.
