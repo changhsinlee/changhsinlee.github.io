@@ -154,8 +154,8 @@ I say we should be more creative in the way we test machine learning models than
 
 In general, I would say one should avoid this as much as possible. But the more tests you put on the model, the more likely you will see some failed tests and as a result, peek. Now we have a dilemma.
 
-I think it is impossible to not peek in business, especially when the business keep asking for "real results." Still, the best we can do is set up the guardrails and reduce as much production risk as possible. Let's set up the right tests first and worry about whether we are peeking later.
+I think it is impossible to not peek in business, especially when the people are asking for quick results. Still, the best we can do is set up the guard rails and reduce as much production risk as possible. Let's set up the right tests first and worry about whether we are peeking later.
 
 ***
 
-By no means this is a complete guide, so please feel free to discuss in the comments or tweet at [@ChangLeeTW](https://twitter.com/ChangLeeTW).
+If you want to discuss, please leave a comment or tweet at [@ChangLeeTW](https://twitter.com/ChangLeeTW).
