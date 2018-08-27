@@ -97,7 +97,7 @@ _It is a dangerous assumption._
 
 At PyOhio last month, chatting with [@ChrisPoptic](https://twitter.com/ChrisPoptic) made me realize one thing. One way to classify data is to check whether how much of a "social component" it contains --
 
-Data with low social component -- 
+Data with low social component --
 * Things related to image, video, audio.
 
   Human perception of things rarely change over our lifespan. A dog is still a dog, and a cat is still a cat. There is good reason to assume stationary data.
@@ -156,6 +156,9 @@ In general, I would say one should avoid this as much as possible. But the more 
 
 I think it is impossible to not peek in business, especially when the people are asking for quick results. Still, the best we can do is set up the guard rails and reduce as much production risk as possible. Let's set up the right tests first and worry about whether we are peeking later.
 
-***
+<br>
 
-If you want to discuss, please leave a comment or tweet at [@ChangLeeTW](https://twitter.com/ChangLeeTW).
+***
+<br>
+
+To discuss, please leave a comment or tweet at [@ChangLeeTW](https://twitter.com/ChangLeeTW).
