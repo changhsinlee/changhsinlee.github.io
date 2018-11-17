@@ -20,6 +20,8 @@ You need will Spark installed to follow this tutorial. Windows users can check o
 
 Spark version in this post is 2.1.1, and the Jupyter notebook from this post [can be found here](https://github.com/changhsinlee/changhsinlee.github.io/blob/master/notebook/20180129-python-function-pyspark-udf/example-notebook.ipynb).
 
+**Disclaimer (11/17/18)**: I will not answer UDF related questions via email—please use the comments. If you have a problem about UDF, post with a minimal example and the error it throws in the comments section. I got many emails that not only ask me what to do with the whole script (that looks like from work—which might get the person into legal trouble) but also don't tell me what error the UDF throws. If I can't reproduce the error, then it is unlikely that I can help. If the question was posted in the comments, however, then everyone can use the answer when they find the post. Please _share the knowledge_.
+
 ## Registering a UDF
 
 PySpark UDFs work in a similar way as the pandas `.map()` and `.apply()` methods for pandas series and dataframes. If I have a function that can use values from a row in the dataframe as input, then I can map it to the entire dataframe. The only difference is that with PySpark UDFs I have to specify the output data type.
