@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Becoming a Better Data Scientist: Testing with pytest
+title: Becoming a Better Data Scientist—Testing with pytest
 comments: true
 lang: en
 header-img: "/figure/source/2018-11-19-pytest-intro/house-of-cards.png"
