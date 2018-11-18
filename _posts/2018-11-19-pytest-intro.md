@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Becoming a Better Data Scientist—Testing with pytest
 comments: true
 lang: en
