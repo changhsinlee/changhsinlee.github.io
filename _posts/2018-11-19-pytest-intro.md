@@ -1,16 +1,15 @@
 ---
 layout: page
-title: On Becoming an Efficient Data Scientist—An Intro to Testing with pytest
-comments: false
+title: The Road to Become a Better Data Scientist—Testing with pytest
+comments: true
 lang: en
-header-img: "/figure/source/2018-11-19-data-science-pytest-intro/house-of-cards.png"
-permalink: /pytest-intro-draft/
+header-img: "/figure/source/2018-11-19-pytest-intro/house-of-cards.png"
 tags: [machine-learning, data-science, testing, pytest, python]
 ---
 
 This story has happened to me too many times: First, I started a project. Then I explored relevant data and wrote some code that fulfills business needs. I was proud of my code and the initial results.
 
-![My code looks great!](/figure/source/2018-11-19-data-science-pytest-intro/house-of-cards.png)
+![My code looks great!](/figure/source/2018-11-19-pytest-intro/house-of-cards.png)
 *My code looks great!*
 
 A few days later, the business came back and asked for additional work due to the things they saw in the data. So, I made changes to my code and pushed the results. A few days later, they came back again. This time they want to revert the changes from last time and add a few more things. And there would be more, and more, and more.
@@ -21,7 +20,7 @@ This simple request would take me hours. And it wasn't because coding was hard. 
 
 What I didn't tell them was that I had the same question—why did it take me two days? 😒
 
-![When business rule strikes](/figure/source/2018-11-19-data-science-pytest-intro/collapsed.png)
+![When business rule strikes](/figure/source/2018-11-19-pytest-intro/collapsed.png)
 *When business logic strikes*
 
 So, after a few frustrating experiences like this, I started looking for software best practices. One thing that I learned was **testing**.
@@ -40,7 +39,7 @@ In other words, it is easier to read the test cases and find out what a piece of
 
 Code is only a tool to solve problems. For data science, I care more about what data goes in and what kind of data comes out—and that's what good test cases do. In the test cases, inner working of the functions and methods are less important, but all the arbitrary business reasons are captured by examples with good reasons in the comments.
 
-Scenario: when a new member joins a project, which option takes less time for he or her to figure out what is going on?
+Scenario: when a new member joins a project, which option takes less time for him or her to figure out what is going on?
 
 1. Read 1,000 lines of SQL to figure out what the script does.
 2. Read the test case that describes the input and output of said script.
@@ -123,7 +122,7 @@ def test_1_equals_to_2():
 
 in `test_my_function.py` and run `pytest` to see the test failure.
 
-![testing 1 equals to 2](/figure/source/2018-11-19-data-science-pytest-intro/test_1_2.png)
+![testing 1 equals to 2](/figure/source/2018-11-19-pytest-intro/test_1_2.png)
 
 
 ### Adding test data
