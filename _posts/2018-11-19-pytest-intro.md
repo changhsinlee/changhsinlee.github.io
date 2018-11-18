@@ -174,7 +174,7 @@ names2 = pd.read_json(StringIO('''
 Finally, I can store data as files read from the disk:
 
 * as `csv`: plain text, probably the best option for small dataframes
-* as `pickle`: binary, poses a security risk
+* as `pickle`: binary, Python only format
 * as `parquet`: binary, keeps the data format, requires either `pyarrow` or `fastparquet` to load
 
 
