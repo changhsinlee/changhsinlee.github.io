@@ -182,7 +182,7 @@ Finally, I can store data as files read from the disk:
 
 So I covered installing and how to write `1 != 2`, but there wasn't a concrete example.
 
-I hear you—I was going to put more things in this post, but the length of the post was getting out of hand. In the next few posts, I will show a few things that I learned I using pytest, including:
+I hear you—I was going to put more things in this post, but the length of the post was getting out of hand. In the next few posts, I will show a few things that I learned using pytest, including:
 
 * writing tests for pandas
 * how to set up fixtures—or how `pytest` handles `setUp()` and `tearDown()` for me
