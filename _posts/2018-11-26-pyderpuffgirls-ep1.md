@@ -21,13 +21,13 @@ Most of the time, I'm not writing an application for hundreds or millions of use
 
 So don't [Learn Python the Hard Way](https://learnpythonthehardway.org/). Time is precious, why [would you learn the hard way first](http://varianceexplained.org/r/teach-hard-way/)?
 
-The initial cost to start and how far those "tutorials" deviate from the daily data analysis need is probably why I've heard of so many false starts of Python among people that I knew. I don't want to write a f-ing tic-tac-toe—it's useless for my job and is a waste of my time.
+The initial cost to start and how far those "tutorials" deviate from the daily data analysis need is probably why I've heard of so many false starts of Python among people that I knew. I don't want to write a f-ing tic-tac-toe—it's useless for my job and a total waste of my time.
 
-The closest resource that fits my need was [Automate the Boring Stuff](https://automatetheboringstuff.com/) by Al Sweigart. It's an excellent book, and the online version is free, so I recommend checking it out.
+The closest learning resource that fit my need was [Automate the Boring Stuff](https://automatetheboringstuff.com/) by Al Sweigart. It's an excellent book, and the online version is free, so I recommend checking it out.
 
 ### Goal
 
-I want to provide a tutorial that everyone that analyzes data and works with Email & Excel can use Python to automate the boring parts away.
+I want to provide a tutorial so everyone that analyzes data and works with Email & Excel can use Python to automate the boring parts away.
 
 ![clippy](/figure/source/2018-11-26-pyderpuffgirls-ep1/clippy.png)
 *Who doesn't love a life of Email & Excel?*
@@ -38,13 +38,13 @@ This tutorial is for people that analyze data daily, tried Python in the past be
 
 I will not cover all the details. This is a tutorial on doing. It's not a class.
 
-My hope is that the examples will mirrors some of the most common workflows that can be automated away in an analyst's life. So by going through this tutorial, you can build a habit of recognizing repetitive tasks and writing a Python scripts to automate them away. The details can wait.
+My hope is that the examples will mirror some of the most common workflows that can be automated away in an analyst's life. So by going through this tutorial, you can build a habit of recognizing repetitive tasks and writing a Python scripts to automate them away. The details can wait.
 
 ### Why Python? What about R?
 
 Here are my two cents: R is great for statistical programming, but Python is a general programming language and one that is much better at manipulating text than R.
 
-I like R a lot. In fact, I still think modern R is a much better tool for the "crunching numbers" part of data analysis than Python. In this course, however, I will focus on the strength of Python—being able to manipulate text and file system easily means you can write a lot of _readable_ code and automate tasks that makes life easier.
+I like R a lot. In fact, I still think modern R is a much better tool for the "crunching numbers" part of data analysis than Python. In this tutorial, however, I will focus on the strength of Python—being able to manipulate text and file system easily means you can write a lot of _readable_ code and automate tasks that makes life easier.
 
 Let's take a look at the history of Python, [in Guido's own words](http://python-history.blogspot.com/2009/01/personal-history-part-1-cwi.html)
 
@@ -57,18 +57,18 @@ That's what Python is good at—building efficient tools without taking too much
 * Generate a report from a database in one click, complete with data and image
 * Transform an excel spreadsheet (that has a fixed form) and load it to a database
 * Email the reports once completed
-* Retry if the report fails to run or querying the database, and send a warning email
+* Retry if the report fails to run, then send a warning email if the retry fails again
 * Schedule any of the above on a regular basis
-* Write templates to reduce the amount of SQL code one has to change and make the code more readable
+* Write templates to reduce the amount of SQL code one has to change to meet a business requirement and make the code more readable
 
 In other words, the difference between a person, A, who uses Python and who don't, B, is that
 
-* A will be more efficient than B—instead of going to office on Monday morning to compete with everyone's query time, A can schedule the job early and kick back with a cup of coffee in hand and _read_ the report A scheduled to run on Sunday, before sending it out to business users.
+* A will be more efficient than B—instead of going to office on Monday morning to compete with everyone's query time, A can schedule the job early, kick back with a cup of coffee in hand, and _read_ the report A first thing on Monday, before sending it out to business users.
 
 ![drinking coffee](/figure/source/2018-11-26-pyderpuffgirls-ep1/coffee.png)
 *My ideal Monday morning*
 
-* A's works are more resilient to business logic changes—by writing templates (or code generators) that makes SQL queries instead of writing every bit of SQL queries by hand, the code becomes much more flexible, has less bugs, and will be easy to change in the future.
+* A's works are more resilient to business logic changes—by writing templates (or code generators) that writes SQL queries instead of writing every bit of SQL queries by hand, the code becomes much more flexible, has less bugs, and will be easy to change in the future.
 
 ## PyderPuffGirls Ep 1: Texts and files
 
@@ -78,7 +78,7 @@ What is good code? I would say that good code is readable code.
 
 A good piece of Python code should be _readable_, as in reading with sounds. I can almost read through the whole code literally in plain English and understand what the code is trying to do.
 
-Unless I'm running a time-consuming task, such as training a machine learning model, I would say that writing readable and maintainable code is way more important than writing high performance code. For the tasks I'm going after in this tutorial, human time is much more valuable than machine time.
+Unless I'm running a time-consuming task like training a machine learning model, I would say that writing readable and maintainable code is way more important than writing high performance code. For the tasks I'm going after in this tutorial, human time is much more valuable than machine time.
 
 So in this tutorial, I will try to make the code as readable as possible. Please feel free to suggest a different way of doing things if you think it will improve readability—I am learning too.
 
@@ -127,7 +127,7 @@ print(part1 + part2)
 I want to addstrings together
 ```
 
-The "+" operator concatenates the strings (and hence the missing space in the sentence)
+The "+" operator concatenates the strings (and hence the missing space in the sentence.)
 
 I can also split a string:
 
@@ -146,17 +146,17 @@ The square brackets `[]` defines a kind of Python object call `list`. A list is 
 
 Escape strings starts with a `\`, this is for putting in special characters.
 
-Some of the most common escapes include
+Some of the most common escapes include:
 
-* `\n`: newline character: it tells Python and most text editors to render a new line on screen when they see it
-* `\t`: tab: shows up a lot in tab delimited .csv files
-* `\\`: backslash: because Windows uses backslash for file path versus Unix's forward slash
+* `\n`: newline character: it tells Python and most text editors to render a new line on screen when they see it.
+* `\t`: tab: shows up a lot in tab delimited .csv files.
+* `\\`: backslash: because Windows uses backslash for file path versus Unix's forward slash.
 * `\'`, '\"`: escaping the quotes to define a string. Say `s = 'I don\\\'t even'
 * '\N{grinning face with smiling eyes}': prints out a 😁. Yes, you can print emojis into the logs...
 
 #### Raw strings and multiline strings
 
-There is also raw text, by prefixing an `r` and multiline texts, by triple quotes—
+There is also raw text, defined by prefixing an `r` and multiline texts, defined by triple quotes—
 
 ```
 raw_string = r"you mean now I don't need to escape? \o/"  # double quotes because the "don't" part
@@ -168,7 +168,7 @@ I want
 '''
 ```
 
-If you run `multiline_string`, you will see its string representation is actually
+If you run `multiline_string`, you will see the string representation of `multiline_string` is actually
 
 ```
 'now\nI can write as many\nlines\nas \nI want\n'
@@ -313,7 +313,7 @@ where game_date = '{yesterday}'
 * the f- prefix tells Python that this is an f-string. It means that it will fetch the variables defined inside and plug the value into it.
 * In this case, the variable we want to fetch is `yesterday` specified within the curly braces {}
 
-Running `sql_query`, we see the string is rendered as
+Running `ncaa_query`, we see the string is rendered as
 
 ```
 "\nselect game, score, win_team, loss_team, game_date\nfrom ncaa.scores\nwhere game_date = '2018-11-23'\n"
@@ -323,7 +323,7 @@ Now we can save it to a file
 
 ```py
 with open(f'{yesterday}_ncaa_scores.sql', 'w') as f:
-    f.write(sql_query)
+    f.write(ncaa_query)
 ```
 
 and the result looks like
