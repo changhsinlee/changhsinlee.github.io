@@ -1,11 +1,10 @@
 ---
-layout: page
+layout: post
 title: "How to Query a Database in Python—PyderPuffGirls Episode 2"
-comments: false
+comments: true
 lang: en
 header-img: "/figure/source/2018-12-03-pyderpuffgirls-ep2/cut-database.png"
 tags: [data-science, python, automation, sql]
-permalink: /lesson2-draft/
 ---
 
 In PyderPuffGirl Episode 1, I showed you how to open a SQL query in Python. How can I submit said query through Python to a database? Moreover, how can I get the result of the query as a file in Python?
@@ -35,7 +34,7 @@ Although I'm demonstrating on Windows 10, I added steps for Mac and Linux too. I
 
 ### Must
 
-You will need the following two Python packages to follow the tutorial:
+You will need to install two Python packages to follow the tutorial:
 
 * `pandas`
 * `sqlalchemy`
@@ -527,4 +526,4 @@ Please help by making this list complete. If you can let me know what works for 
 
 * [PyderPuffGirl Episode 1: A Python Tutorial for the Bored Me](https://changhsinlee.com/pyderpuffgirls-ep1/)
 
-Please feel free to leave a comment or tweet at [@ChangLeeTW](https://twitter.com/ChangLeeTW) if you have a question.
+Please feel free to post in the comments section or tweet at [@ChangLeeTW](https://twitter.com/ChangLeeTW) for questions and comments.
