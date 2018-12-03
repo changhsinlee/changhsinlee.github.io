@@ -79,7 +79,7 @@ Anything that is in a user's environment variables can only be accessed by the s
 
 😊👍 _This is the preferred option._
 
-Editing environment variable for user account should not pop a local admin rights warning. If you work for a corporate job and somehow this option is blocked by IT, then maybe Option 3 is the way to go.
+Editing environment variable for user account should not pop a local admin rights warning. If you work a corporate job and somehow this option is blocked by IT, then maybe Option 3 is the way to go.
 
 #### Option 3. Putting my password in a separate configuration file
 
@@ -499,7 +499,7 @@ It throws a `ProgrammingError` and tells me I should add `city` to the group by 
 
 If you are on Windows, it's possible your `python` and `pip` command won't work after installing Python. I am going to dump most of the installation into a master post later.
 
-#### Always google before install
+### Always google before install
 
 Always google `pip [package name]` before installing a Python package via `pip`. The name of package on GitHub may not be the same name used on PyPI (the pip repository) when you install. The correct name is the one on the PyPI page.
 
