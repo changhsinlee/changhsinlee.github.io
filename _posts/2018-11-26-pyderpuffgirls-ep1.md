@@ -332,6 +332,8 @@ and the result looks like
 
 ## What's next?
 
-...I haven't decided yet, will come back and fill it up after our first session.
+* [PyderPuffGirl Episode 2: How to Query a Database in Python](https://changhsinlee.com/pyderpuffgirls-ep2/)
+
+Please feel free to post in the comments section or tweet at [@ChangLeeTW](https://twitter.com/ChangLeeTW) for questions and comments.
 
 †The name "PyderPuffGirls" came from Keith Finch. Thanks Keith!
