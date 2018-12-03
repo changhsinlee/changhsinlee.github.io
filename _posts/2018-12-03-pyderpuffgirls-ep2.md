@@ -519,7 +519,7 @@ Please help by making this list complete. If you can let me know what works for 
 ### PostgreSQL
 
 * Driver: [psycopg2](https://pypi.org/project/psycopg2/)
-* Connection URL: `postgresql+psycopg2://scott:tiger@localhost/mydatabase`
+* Connection URL: `postgresql+psycopg2://{username}:{password}@{hostname}/{databasename}`
     [The example was found here](https://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql).
 
 ***
