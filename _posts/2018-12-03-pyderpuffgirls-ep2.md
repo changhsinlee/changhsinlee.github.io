@@ -343,6 +343,8 @@ Here's what the `.csv` file I saved looks like in Notepad++:
 
 ### Bonus: Write dataframe back to the database
 
+(Jared Cline suggested adding this section to make the post complete. Thanks Jared!)
+
 Other than writing the result to a file, sometime I want to load the dataframe back to a custom table in the database. In this case, I can use the `.to_sql()` method. Let's say I have a dataframe called `food`,
 
 ```py
@@ -366,7 +368,6 @@ which will save the dataframe as a table called `dinner`.
 ![dinner table](/figure/source/2018-12-03-pyderpuffgirls-ep2/upload-database.png)
 
 You can find the options for `.to_sql()` [in the pandas documentation](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_sql.html).
-
 
 ### Bonus: Replacing query by a SQL script file
 
