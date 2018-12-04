@@ -341,6 +341,33 @@ Here's what the `.csv` file I saved looks like in Notepad++:
 
 ![saved file](/figure/source/2018-12-03-pyderpuffgirls-ep2/saved-file.png)
 
+### Bonus: Write dataframe back to the database
+
+Other than writing the result to a file, sometime I want to load the dataframe back to a custom table in the database. In this case, I can use the `.to_sql()` method. Let's say I have a dataframe called `food`,
+
+```py
+food = pd.DataFrame({
+    'date': ['2018-01-01', '2018-01-02', '2018-01-03'],
+    'dinner': ['taco', 'taco', 'burrito']
+})
+food['date'] = pd.to_datetime(food['date'])  # change the data type from string to datetime
+```
+
+![food dataframe](/figure/source/2018-12-03-pyderpuffgirls-ep2/food.png)
+
+then I can load it into my PostgreSQL database by
+
+```py
+food.to_sql('dinner', engine, if_exists='replace', index=False)
+```
+
+which will save the dataframe as a table called `dinner`.
+
+![dinner table](/figure/source/2018-12-03-pyderpuffgirls-ep2/upload-database.png)
+
+You can find the options for `.to_sql()` [in the pandas documentation](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_sql.html).
+
+
 ### Bonus: Replacing query by a SQL script file
 
 [In Episode 1](https://changhsinlee.com/pyderpuffgirls-ep1/), I show how to read a file into Python as a string. This means that if I have a file called `weather-query.sql`, then I can replace the part where it says
