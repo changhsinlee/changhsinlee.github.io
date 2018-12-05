@@ -42,7 +42,7 @@ You will need to install two Python packages to follow the tutorial:
 To install, run
 
 ```sh
-pip install --user pandas sqlalchemy pyodbc
+pip install --user pandas sqlalchemy
 ```
 
 in a command line tool like `cmd` in Windows or Terminal in Mac.
