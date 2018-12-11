@@ -212,7 +212,7 @@ Again, I resorted to googling. I searched for
 
 ![](/figure/source/2018-12-03-pyderpuffgirls-ep2/search-connection-url.png)
 
-Inside the first link, [it showed me an example](https://docs.sqlalchemy.org/en/latest/core/engines.html#database-urls) where the general connection URL looks like
+Inside the first link, [it showed me an example](https://docs.sqlalchemy.org/en/latest/core/engines.html#database-urls) where the general connection URL looked like
 
 ```
 dialect+driver://username:password@host:port/database
@@ -504,7 +504,7 @@ This is what happens when I put in the wrong password:
 
 ### ProgrammingError
 
-One reason of a `ProgrammingError` is an invalid query. For example, This is what happens when I forget to add the group by clause when I'm taking the mean of a column:
+One reason for a `ProgrammingError` is an invalid query. For example, This is what happens when I forget to add the group by clause when I'm taking the mean of a column:
 
 ```py
 avg_query = '''
@@ -549,6 +549,22 @@ Please help by making this list complete. If you can let me know what works for 
 * Driver: [psycopg2](https://pypi.org/project/psycopg2/)
 * Connection URL: `postgresql+psycopg2://{username}:{password}@{hostname}/{databasename}`
     [The example was found here](https://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql).
+
+### Teradata
+
+1. Teradatasqlalchemy (Official)
+
+    Not sure if you can specify the database or not.
+    
+    * Driver: [Teradatasqlalchemy](https://pypi.org/project/teradatasqlalchemy/)
+    * Connection URL: `teradatasql://{username}:{password}@{hostname}`
+
+2. SQLAlchemy-Teradata (Unofficial)
+
+    This driver is pre-release, but it works.
+
+    * Driver: [sqlalchemy-teradata](https://pypi.org/project/sqlalchemy-teradata/)
+    * Connection URL: `teradata://{username}:{password}@{hostname}`
 
 ***
 
