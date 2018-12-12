@@ -555,7 +555,7 @@ Please help by making this list complete. If you can let me know what works for 
 1. Teradatasqlalchemy (Official)
 
     Not sure if you can specify the database or not.
-    
+
     * Driver: [Teradatasqlalchemy](https://pypi.org/project/teradatasqlalchemy/)
     * Connection URL: `teradatasql://{username}:{password}@{hostname}`
 
@@ -570,4 +570,4 @@ Please help by making this list complete. If you can let me know what works for 
 
 * [PyderPuffGirl Episode 1: A Python Tutorial for the Bored Me](https://changhsinlee.com/pyderpuffgirls-ep1/)
 
-Please feel free to post in the comments section or tweet at [@ChangLeeTW](https://twitter.com/ChangLeeTW) for questions and comments.
+Please feel free to post in the comments section or tweet at [@ChangLeeTW](https://twitter.com/ChangLeeTW) for questions or comments.

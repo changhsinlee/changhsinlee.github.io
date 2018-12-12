@@ -334,6 +334,6 @@ and the result looks like
 
 * [PyderPuffGirl Episode 2: How to Query a Database in Python](https://changhsinlee.com/pyderpuffgirls-ep2/)
 
-Please feel free to post in the comments section or tweet at [@ChangLeeTW](https://twitter.com/ChangLeeTW) for questions and comments.
+Please feel free to post in the comments section or tweet at [@ChangLeeTW](https://twitter.com/ChangLeeTW) for questions or comments.
 
 †The name "PyderPuffGirls" came from Keith Finch. Thanks Keith!
