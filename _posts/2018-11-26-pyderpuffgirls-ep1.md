@@ -332,7 +332,8 @@ and the result looks like
 
 ## What's next?
 
-* [PyderPuffGirl Episode 2: How to Query a Database in Python](https://changhsinlee.com/pyderpuffgirls-ep2/)
+* [PyderPuffGirls Episode 2: How to Query a Database in Python](https://changhsinlee.com/pyderpuffgirls-ep2/)
+* [PyderPuffGirls Episode 3: Don't wait, schedule and relax instead](https://changhsinlee.com/pyderpuffgirls-ep3/)
 
 Please feel free to post in the comments section or tweet at [@ChangLeeTW](https://twitter.com/ChangLeeTW) for questions or comments.
 
