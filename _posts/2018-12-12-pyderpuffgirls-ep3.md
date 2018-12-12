@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Don't wait, schedule and relax instead—PyderPuffGirls Episode 3"
+title: "Don't Wait, Schedule and Relax Instead—PyderPuffGirls Episode 3"
 comments: true
 lang: en
 header-img: "/figure/source/2018-12-12-pyderpuffgirls-ep3/sleeps.png"
@@ -288,6 +288,7 @@ def get_weather_report():
     select city, temp_lo, temp_hi, date
     from weather
     where date between '{start_date}' and '{end_date}'
+    ;
     '''
 
     username = os.environ['PSQL_USERNAME']
