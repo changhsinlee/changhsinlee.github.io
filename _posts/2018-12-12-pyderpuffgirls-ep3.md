@@ -236,7 +236,7 @@ import schedule
 import time
 import datetime
 
-def sql_job(at_time):
+def sql_job():
     current_time = datetime.date.now()
     print(f"I'm pretending to be a SQL job! Ran at {current_time}")
 
