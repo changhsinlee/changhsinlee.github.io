@@ -3,7 +3,7 @@ layout: post
 title: "Don't wait, schedule and relax instead—PyderPuffGirls Episode 3"
 comments: true
 lang: en
-header-img: "/figure/source/2018-12-03-pyderpuffgirls-ep3/sleeps.png"
+header-img: "/figure/source/2018-12-12-pyderpuffgirls-ep3/sleeps.png"
 tags: [data-science, python, automation, sql]
 ---
 
