@@ -569,6 +569,6 @@ Please help by making this list complete. If you can let me know what works for 
 ***
 
 * [PyderPuffGirls Episode 1: A Python Tutorial for the Bored Me](https://changhsinlee.com/pyderpuffgirls-ep1/)
-* [PyderPuffGirls Episode 3: Don't wait, schedule and relax instead](https://changhsinlee.com/pyderpuffgirls-ep3/)
+* [PyderPuffGirls Episode 3: Don't Wait, Schedule and Relax Instead](https://changhsinlee.com/pyderpuffgirls-ep3/)
 
 Please feel free to post in the comments section or tweet at [@ChangLeeTW](https://twitter.com/ChangLeeTW) for questions or comments.
