@@ -17,7 +17,7 @@ This is the Episode 1 of the PyderPuffGirls†—a tutorial on automating the bo
 
 When I learned Python, I looked at several tutorials. Most of them are geared toward software developers—so you learn about data types, control flow (how to if/else and for-loops), classes, and other things that software developers use to build applications.
 
-Most of the time, I'm not writing an application for hundreds or millions of users. I want to automate part of my job so I can reduce the mental load from the boring, manual tasks, and shift my focus to more important things. In other words, I need to write _script_ more than I need to write _applications_.
+Most of the time, I'm not writing an application for hundreds or millions of users. I want to automate part of my job so I can reduce the mental load from the boring, manual tasks, and shift my focus to more important things. In other words, I need to write _scripts_ more than I need to write _applications_.
 
 So don't [Learn Python the Hard Way](https://learnpythonthehardway.org/). Time is precious, why [would you learn the hard way first](http://varianceexplained.org/r/teach-hard-way/)?
 
