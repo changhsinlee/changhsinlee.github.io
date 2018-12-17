@@ -349,7 +349,11 @@ If it is a remote Unix machine that is maintained by IT and you already know how
 In the next post, I will show you how to email the results and close the boring report cycle.
 
 ***
-* [PyderPuffGirl Episode 1: A Python Tutorial for the Bored Me](https://changhsinlee.com/pyderpuffgirls-ep1/)
-* [PyderPuffGirl Episode 2: How to Query a Database in Python](https://changhsinlee.com/pyderpuffgirls-ep2/)
+
+**The PyderPuffGirls**
+
+* [Episode 1: A Python Tutorial for the Bored Me](https://changhsinlee.com/pyderpuffgirls-ep1/)
+* [Episode 2: How to Query a Database in Python](https://changhsinlee.com/pyderpuffgirls-ep2/)
+* Episode 3: Don't Wait, Schedule and Relax Instead
 
 Please feel free to post in the comments section or tweet at [@ChangLeeTW](https://twitter.com/ChangLeeTW) for questions or comments.
