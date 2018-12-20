@@ -301,7 +301,7 @@ I can send emails now! But I want to reuse my code, so I better put them into a 
 
 Now you know the steps I took to write the code. Feel free to go back and read it again:
 
-* [Link to code]
+* [Link to code](https://changhsinlee.com/pyderpuffgirls-ep4/#the-code)
 
 #### Development workflow
 
@@ -371,7 +371,7 @@ The `if ...:` statement is actually more like a `case when` statement in SQL. Mo
 
 #### Question: what is that underscore in `_add_attachments`?
 
-In Python, a single underscore prefix for a function or a variable means that the developer wants to hide it from the user. Most IDEs will not suggest those functions in autocompleting the `import` statements, but you can still use them.
+In Python, a single underscore prefix for a function or a variable means that the developer wants to hide it from the user. Most IDEs will autocomplete those functions in the `import` statements, but you can still use them.
 
 In other words, it is a way to tag a function and tell others "this function is for internal use. If you want to use it, use at your own risk." [Here is a great post about the underscores in Python names](https://dbader.org/blog/meaning-of-underscores-in-python).
 
