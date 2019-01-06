@@ -418,7 +418,7 @@ I read about templating SQL with Jinja2 from a post on the StitchFix engineering
 
 * [This one weird trick will simplify your ETL workflow](https://multithreaded.stitchfix.com/blog/2017/07/06/one-weird-trick/)
 
-but the concept didn't stick until I read the chapter on Metaprogramming in this book:
+but the concept didn't stick until I read the chapter on Code Generators in this book:
 
 * [The Pragmatic Programmer (normal link)](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
 * [The Pragmatic Programmer (affiliate link that gives me taco money if you buy from)](https://www.amazon.com/gp/product/020161622X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=020161622X&linkCode=as2&tag=changhsinlee-20&linkId=704faa9b039fd8aede3c99f1dfdd74c0)
