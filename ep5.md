@@ -48,26 +48,29 @@ Is that really it?
 
 ## What can I do?
 
-Unreadable SQL queries have two symptoms
+Unreadable SQL queries suffer from two symptoms
 
 1. The business logic that goes into creating this query is hidden in clutter.
 2. It is difficult to make changes—how do I know I've changed all the places I needed to change for even a small request?
 
-They are caused by one thing: SQL code in business is often _way too verbose_.
+What's the cause? I say that the causes are
 
-In the last few episodes, I showed you have to automate boring tasks that required moving the mouse and clicking on screen. Is there something that I can automate about SQL queries to minimize clutter and reduce the uncertainty in making changes?
+1. SQL code is often _way too verbose_ due to business logic, and
+2. the business logic is tied into the code itself. If the business logic changes in one place, then several places in the code have to change.
 
-The answer is yes. And I found it through one of the most liberating concept in programming—
+In the last few episodes, I showed you how to automate boring tasks that require moving and clicking the mouse. Are there things about SQL query that I can automate to solve those problems?
+
+The answer is yes, and the solution comes from one of the most liberating principle in programming—
 
 ### Write code that writes code
 
-With Python, we can highlight the part of code that we care, and let computer write the boring part for us. I am going to demonstrate this concept with a Python library, `jinja2`, but let's look at an example first.
+With Python, we can highlight the part of code that we care, and let computer write the boring part for us. I am going to demonstrate this principle with a Python package, `jinja2`, so let me show you an example first.
 
 ## An example
 
-Here is a typical query from Postgres using the [IMDB 5,000 movies dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset).
+Here is a typical query in Postgres that I used on the [IMDB 5,000 movies dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset).
 
-In this dataset, there is a field called _genres_ that has the genres of a film like this:
+There is a field in the dataset called _genres_ that contains the genres of a film like this:
 
 movie_title | genres
 --------------|---------
@@ -77,11 +80,11 @@ Harry Potter and the Half-Blood Prince | `Adventure|Family|Fantasy|Mystery`
 Jerry Maguire | `Comedy|Drama|Romance|Sport`
 The Fast and the Furious | `Action|Crime|Thriller`
 
-This format saves disk space, but may not be the best for analysis.
+This storage format saves disk space, but it is not ready to use for analysis. My goal is to transform this field into a more convenient format.
 
 ### Creating flag columns
 
-In this example, I want to decompress the table and create a bunch of flag columns that turn my table into
+In this case, I want to remove the pipes (|) from `genres` and create a bunch of flag columns that turn my table into
 
 movie_title | Action | Adventure | Drama | Fantasy
 ------------|--------|-----------|-------|--------
@@ -90,11 +93,11 @@ The Social Network | 0 | 0 | 1 | 0
 Harry Potter | 0 | 1 | 0 | 1
 ... | ... | ... | ... | ...
 
-In other words, I want to one-hot encode the genres by flagging a film as 1 if it belongs in the genre and 0 otherwise. It will make it easier to use the `genres` field for analytics or modeling later.
+In other words, I want to flag films by genres. A film gets 1 in a genre if it belongs in said genre and 0 otherwise.
 
 ### The SQL code
 
-After finding out all the possible values for genre, I would write a query in Postgres like this:
+After finding out all the possible values for genre, this is how I would write the code in PostgreSQL:
 
 ```sql
 with genres_split as (
@@ -134,17 +137,20 @@ from genres_split
 ;
 ```
 
-This is how I would do it in pure SQL. Let's do it again in Python.
+Let's do it again in Python.
 
 ## Python: templating with Jinja2
 
-Python has a popular template engine called `jinja2`. To install, run in command line
+`Jinja2` is a popular templating engine for Python. To install, run in command line
 
 ```sh
 pip install --user jinja2
 ```
 
 A template engine can be think of as a programming language (Jinja) inside a programming language (Python). Jinja2 is most used in Django template for making websites and web applications, because web development can be repetitive with a lot of similar code. I mean a lot of similar code—and that's why it can help me write SQL.
+
+![](/figure/source/2019-01-07-pyderpuffgirls-ep5/jinja.png)
+*A tour in the Python Jinja*
 
 ### Basic usage
 
@@ -170,7 +176,7 @@ output = Template(template_string).render(param1=list_param, param2=dictionary_p
 run_sql(output)
 ```
 
-### An example: flag the genres
+### Example revisited: flag the genres
 
 Let's work through the IMDB movies example I put on the top of this post.
 
@@ -213,7 +219,7 @@ def lower_and_replace_dash(word):
 
 # Creating and populating a dictionary from a sequence (genres) like this is called dictionary comprehension
 genre_mapping = {
-    lower_and_replace_dash(genre): genre 
+    lower_and_replace_dash(genre): genre
     for genre in genres
 }
 
@@ -237,14 +243,18 @@ print(output)
 
 And Python prints out the same SQL code that I wrote to create the flag columns!
 
-What do I see in this Python code compare to the SQL code above? I would say
+### Why this is good
 
-* In the Python code, the list of genres pops out—it is clear that this query is about the genres.
-* The Jinja2 template shows that I'm doing the same thing (CASE WHEN flagging) for all genres—no surprises.
+What do I see in this Python code compare to the pure SQL code? I would say
+
+* In the Python code, the list of genres is on the top—it is clear that this query is about the genres.
+* The Jinja2 template shows that I'm doing the same thing (CASE WHEN flags) for all genres—there will be no surprise.
+
+In this code, making changes is easy because the **business logic**—which genres to plug in—is **abstracted away** from the **code logic**—what do I want to do with the genres.
 
 Now let's break the code down.
 
-### Use the curly brackets
+### Jinja: use the curly brackets
 
 There are two kinds of curly brackets in Jinja2: `{{ kind1 }}` and `{% kind2 %}`.
 
@@ -277,11 +287,11 @@ What does `genres.items()` do? Note that it is rendered from the Python variable
 
 ![](/figure/source/2019-01-07-pyderpuffgirls-ep5/items.png)
 
-If I compare it with the code with [the SQL code](add_link_here), then I can see that it follows the same order. Jinja2 is simply putting the items into their places!
+If I compare the result with the code with the SQL code, then I can see that it follows the same order. Jinja2 is simply putting the items into their places!
 
 ### Python and Jinja
 
-The idea behind templating is to extract, or highlight, the important business logic then let computer write the boring code for you. Jinja is a powerful template engine, so covering even 50% of what it can do will be out of scope.
+The idea behind templating is to extract and highlight the important business logic then let computer write the boring code for you. Jinja is a powerful template engine, so covering even 50% of what it can do will be out of scope.
 
 Everything about making a template can be found in the [Jinja Template Designer Documentation](http://jinja.pocoo.org/docs/templates/#list-of-control-structures), but I will list a few things that I found that I'm using over and over when constructing SQL queries.
 
@@ -348,7 +358,7 @@ and it prints out
 WHERE thriller = 1 AND film_noir = 1 AND western = 1
 ```
 
-Those special variables are great in handling edge cases like this. All the keywords are listed in the [Jinja Template Designer Documentation](http://jinja.pocoo.org/docs/templates/#list-of-control-structures).
+Those special variables are great in handling edge cases like this. All the keywords are listed in the [Control Structures section in the Jinja Template Designer Documentation](http://jinja.pocoo.org/docs/templates/#list-of-control-structures).
 
 #### 4. Blocks
 
@@ -376,13 +386,11 @@ What I did was that I made a block called `candy` that only lives inside the tem
 
 ### The wrong way to use templates
 
-Writing code that writes code is a powerful idea. But it is so powerful that sometimes I take it too far. I want to explain
-
-After I discovered the power of `Jinja2`, it was very tempting to _rewrite all my SQL queries_ with a template. They are so long and messy, why not?
+Writing code that writes code is a powerful idea. But it is so powerful that sometimes I take it too far, as it was very tempting to _rewrite all my SQL queries_ with a template. The lesson I learned?
 
 **Don't.**
 
-It may not be worthwhile. This is akin to premature optimization. Don't make a template if you are only going to use it once.
+It may not be worthwhile. This is what people called premature optimization. Don't make a template if you are only going to use it once.
 
 #### Compare before you buy
 
@@ -396,13 +404,13 @@ In 6 months, if I need to
 * add or remove a genre due to business requirements, or
 * explain to other why this piece of code is made this way,
 
-which way to code will be easier for myself?
+which one will be easier for myself?
 
 This is the criteria I use to judge whether I should make a template for a piece of code. If I can see it will be a pain in the ass in a few weeks, then it's worthwhile to clean it up.
 
-A good template **highlights important concepts** in the code. By reducing clutter, it brings out the main features that helps me understand what the this query was thinking. And making changes are easy.
+A good template **highlights** what is important in the code. It reduces clutter and helps me understand what this query is trying to say.
 
-If it will make me hate my life less, then I will do it.
+So when should I make templates? For me, if it will make me hate my life less in the future, then I will do it.
 
 ### Further reading
 
@@ -410,12 +418,12 @@ I read about templating SQL with Jinja2 from a post on the StitchFix engineering
 
 * [This one weird trick will simplify your ETL workflow](https://multithreaded.stitchfix.com/blog/2017/07/06/one-weird-trick/)
 
-but the concept didn't stick until I read about "writing code that writes code" from a chapter from this book:
+but the concept didn't stick until I read the chapter on Code Generators in this book:
 
 * [The Pragmatic Programmer (normal link)](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
-* [The Pragmatic Programmer (affiliate link that gives me taco money)](https://www.amazon.com/gp/product/020161622X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=020161622X&linkCode=as2&tag=changhsinlee-20&linkId=704faa9b039fd8aede3c99f1dfdd74c0)
+* [The Pragmatic Programmer (affiliate link that gives me taco money if you buy from)](https://www.amazon.com/gp/product/020161622X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=020161622X&linkCode=as2&tag=changhsinlee-20&linkId=704faa9b039fd8aede3c99f1dfdd74c0)
 
-and it has transformed how I see programming. I will talk about what made the concept stick in another post.
+and it transformed how I see programming. It's a timeless book (published in 1999) but it gave me more insight than any other programming book that I've read so far in my career. I will talk about what made the code generator concept stick in another post.
 
 ## What's next?
 
