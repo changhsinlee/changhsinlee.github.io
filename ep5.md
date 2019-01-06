@@ -250,7 +250,7 @@ What do I see in this Python code compare to the pure SQL code? I would say
 * In the Python code, the list of genres is on the top—it is clear that this query is about the genres.
 * The Jinja2 template shows that I'm doing the same thing (CASE WHEN flags) for all genres—there will be no surprise.
 
-In this code, making changes is easy because the **business logic**—which genres to plug in—is **abstracted away** from the **code logic**—what do I want to do with the genres.
+In this code, making changes is easy because the **business logic**—which genres to plug in—is **separated** from the **code logic**—what do I want to do with the genres.
 
 Now let's break the code down.
 
@@ -418,12 +418,12 @@ I read about templating SQL with Jinja2 from a post on the StitchFix engineering
 
 * [This one weird trick will simplify your ETL workflow](https://multithreaded.stitchfix.com/blog/2017/07/06/one-weird-trick/)
 
-but the concept didn't stick until I read the chapter on Code Generators in this book:
+but the concept didn't stick until I read the chapter on Metaprogramming in this book:
 
 * [The Pragmatic Programmer (normal link)](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
 * [The Pragmatic Programmer (affiliate link that gives me taco money if you buy from)](https://www.amazon.com/gp/product/020161622X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=020161622X&linkCode=as2&tag=changhsinlee-20&linkId=704faa9b039fd8aede3c99f1dfdd74c0)
 
-and it transformed how I see programming. It's a timeless book (published in 1999) but it gave me more insight than any other programming book that I've read so far in my career. I will talk about what made the code generator concept stick in another post.
+and it transformed how I see programming. It's an old book (published in 1999) so the technology in the books feels outdated. The timeless chapters on principles, however, gave me more insight than any other programming book that I've read so far in my career. I will talk about what made the code generator concept stick in another post.
 
 ## What's next?
 
