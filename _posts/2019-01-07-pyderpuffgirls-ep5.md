@@ -83,7 +83,7 @@ This storage format saves disk space, but it is not ready to use for analysis. M
 
 ### Creating flag columns
 
-In this case, I want to remove the pipes (|) from `genres` and create a bunch of flag columns that turn my table into
+In this case, I want to remove the pipes (\|) from `genres` and create a bunch of flag columns that turn my table into
 
 movie_title | Action | Adventure | Drama | Fantasy
 ------------|--------|-----------|-------|--------
