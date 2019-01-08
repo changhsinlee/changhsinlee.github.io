@@ -12,6 +12,8 @@ List of events, meetups, and conferences that I spoke at:
 
 **An Only One Step Ahead Guide for Machine Learning Projects**
 
+![ml-projects](/figure/source/speaking/2018-ml-projects.png)
+
 [Slides from DataSciCon](https://drive.google.com/open?id=1K6Zz5PYWAlJzLAc0Ft3ooKP5iOf6F50x)
 
 * [ISACA Charlotte](http://www.isaca.org/chapters3/Charlotte/Pages/default.aspx), Charlotte NC
