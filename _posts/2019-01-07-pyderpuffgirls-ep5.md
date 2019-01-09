@@ -13,7 +13,7 @@ Writing and maintaining complex SQL query sucks. How can I use Python to make my
 
 ### Writing SQL code
 
-One of the most boring task in analytics is dealing with a repetitive SQL query. It usually starts with a business requests. I've used this workflow many times:
+One of the most boring task in analytics is dealing with a repetitive SQL query that comes from business requests. I've used this workflow many times:
 
 * First, I looked at the data and realized that there was a piece of code that, with a slight change in one place, had to be repeated at least 20 to 30 times.
 * Then, I selected and pressed Ctrl+C to copy that part of code and proceeded to smash my Ctrl+V 20-30 times in said section.
