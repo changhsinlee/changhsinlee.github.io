@@ -22,5 +22,5 @@ List of events, meetups, and conferences that I spoke at:
 * [CodeOnTheBeach](https://www.codeonthebeach.com/), Jacksonville FL [video](https://youtu.be/drv64KtC_xw)
 * [Deep Learning RTP](https://www.meetup.com/Deep-Learning-RTP/), Raleigh NC
 * [DevSpace](https://www.devspaceconf.com/), Huntsville AL
-* [DataSciCon](http://datascicon.tech/), Atlanta GA
+* [DataSciCon](http://datascicon.tech/), Atlanta GA [video](https://www.recallact.com/presentation/only-one-step-ahead-guide-machine-learning-projects)
 
