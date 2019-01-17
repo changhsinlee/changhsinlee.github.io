@@ -380,7 +380,37 @@ print(Template(stuff).render())
 ![](/figure/source/2019-01-07-pyderpuffgirls-ep5/block.png)
 
 What I did was that I made a block called `candy` that only lives inside the template, and I can reuse it many times in the same template. Templating a template 🤔.
+
+#### 5. Two loops?
+
+One thing I found was that, if I have nested loops, then the `loop.first` or `loop.last` keywords only pick up the innermost loop. In other words, Jinja is not aware of any parent loops when it is executing the inner loop code. This is a behavior that I want to avoid.
+
+To refer to the outer loops, I can to store the loop with a different name. [Paraphrasing the Jinja2 documentation](http://jinja.pocoo.org/docs/2.10/tricks/#accessing-the-parent-loop), this is what I would do:
+
+```py
+template = '''
+{% for stuff in loop1 %}
+some stuff
+{% set outerloop = loop %}
+{% for more_stuff in loop2 %}{% if not outerloop.first  and if not loop.first %}
+some more stuff
+{% endif %}
+{% endfor %}
+{% endfor %}
+'''
+```
+
+Now Jinja knows I want to skip `some more stuff` at the very first iteration of the nested loops.
+
+#### 6. Removing white spaces for prettier rendering
+
+Jinja has a way to remove trailing spaces and newline characters using the minus sign (-). This means that I can indent the for loops like Python and print out formatted SQL. I will link two things here:
+
+* [White space control from Jinja documentation](http://jinja.pocoo.org/docs/2.10/templates/#whitespace-control)
+* [Relevant question on StackOverflow](https://stackoverflow.com/questions/11813422/what-does-this-in-jinja2-template-engine-do)
+
 {% endraw %}
+
 ## Note on templating
 
 ### The wrong way to use templates
@@ -419,8 +449,8 @@ I read about templating SQL with Jinja2 from a post on the StitchFix engineering
 
 but the concept didn't stick until I read the chapter on Code Generators in this book:
 
+* [The Pragmatic Programmer (affiliate link)](https://www.amazon.com/gp/product/020161622X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=020161622X&linkCode=as2&tag=changhsinlee-20&linkId=704faa9b039fd8aede3c99f1dfdd74c0)
 * [The Pragmatic Programmer (normal link)](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
-* [The Pragmatic Programmer (affiliate link that gives me taco money if you buy from)](https://www.amazon.com/gp/product/020161622X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=020161622X&linkCode=as2&tag=changhsinlee-20&linkId=704faa9b039fd8aede3c99f1dfdd74c0)
 
 and it transformed how I see programming. It's an old book (published in 1999) so the technology in the books feels outdated. The timeless chapters on principles, however, gave me more insight than any other programming book that I've read so far in my career. I will talk about what made the code generator concept stick in another post.
 
