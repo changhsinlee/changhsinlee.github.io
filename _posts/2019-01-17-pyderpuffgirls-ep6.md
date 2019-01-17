@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Configuring the Business with YAML—PyderPuffGirls Episode 6"
+title: "Make a Workflow Config with YAML—PyderPuffGirls Episode 6"
 comments: true
 lang: en
 header-img: "/figure/source/2019-01-17-pyderpuffgirls-ep6/al-west.png"
@@ -129,8 +129,6 @@ The nested data becomes a Python dictionary. Now I can plug the values in the di
 Let's say it's 2012, and I have a baseball business report that pulls data from all American League teams and aggregate by their division. In my configuration file, I might have
 
 ```yaml
-
-
 AL_East:
     - Yankees
     - Red Sox
