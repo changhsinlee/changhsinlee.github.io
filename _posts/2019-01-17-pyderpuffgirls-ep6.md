@@ -162,4 +162,12 @@ I learned about config files from the chapter on Metaprogramming in [The Pragmat
 
 ## What's next?
 
-In the next post, I want to show you how to run command line tools in Python. In particular, I will show you how to use the module `subprocess` on your own machine, and maybe later `paramiko`—how to run commands and manipulate files on a remote server.
+Let's look into what can I do with Excel in Python next time.
+
+***
+
+**The PyderPuffGirls**
+
+More on abstractions
+
+* [Episode 5: Untangle the SQL Mess with Jinja](https://changhsinlee.com/pyderpuffgirls-ep5/)
