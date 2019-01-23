@@ -72,6 +72,8 @@ After getting all the items in section A, let's set up PySpark.
 
     If JDK is installed under `\Program Files (x86)`, then replace the `Progra~1` part by `Progra~2` instead. In my experience, this error only occurs in Windows 7, and I think it's because Spark couldn't parse the space in the folder name.
 
+    **Edit (1/23/19)**: You might also find Gerard's comment helpful: http://disq.us/p/1z5qou4
+
 
 ## C. Running PySpark in Jupyter Notebook
 
@@ -107,7 +109,7 @@ If you see the following output, then you have installed PySpark on your Windows
 
 Please leave a comment in the comments section or tweet me at [@ChangLeeTW](https://twitter.com/ChangLeeTW) if you have any question.
 
-Other PySpark posts from me (last updated 3/4/2018) --- 
+Other PySpark posts from me (last updated 3/4/2018) ---
 
 * [How to Turn Python Functions into PySpark Functions (UDF)](/pyspark-udf/)
 * [PySpark Dataframe Basics](/pyspark-dataframe-basics/)
