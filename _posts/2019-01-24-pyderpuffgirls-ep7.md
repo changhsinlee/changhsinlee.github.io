@@ -3,7 +3,7 @@ layout: post
 title: "Replace the Home Tab in Excel with Python—PyderPuffGirls Episode 7"
 comments: true
 lang: en
-header-img: "/figure/source/2019-01-24-pyderpuffgirls-ep7/clippy-disintegrate.png"
+header-img: "/figure/source/2019-01-24-pyderpuffgirls-ep7/clippy-header.png"
 tags: [data-science, python, excel, automation]
 ---
 
@@ -82,7 +82,7 @@ worksheet1= wb.active
 worksheet1.title = 'today'
 
 # Write into the first sheet
-# if using index=True, the spreadwill will have a weird whitespace row between header and value
+# if using index=True, the spreadsheet will have a weird whitespace row between header and values
 for r in dataframe_to_rows(df, index=False, header=True):
     worksheet1.append(r)
 
@@ -500,10 +500,10 @@ for cell in worksheet['B']:
 
 One of the things I often do when I get a spreadsheet is to autofit the column width. Unfortunately, there is not a "autofit" function in `openpyxl`.
 
-We can, however, calculate the width of all the data and choose an appropriate width ourselves.
+We can, however, calculate the width of all the data then choose the appropriate widths ourselves.
 
 * [Here's a good StackOverflow answer on that](https://stackoverflow.com/a/40935194)
-    The only thing I would change is using `length + 1` instead of `length` as sometimes Excel still hide letters using this solution.
+    The only thing I would change is using `length + 1` instead of `length` as sometimes Excel still hides letters with this solution.
 
 ## Editing
 
