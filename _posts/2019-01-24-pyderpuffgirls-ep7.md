@@ -125,7 +125,7 @@ There are two ways:
 
 For now, I will stick to the coordinate style (ABC for columns, 123 for rows) for selecting cells.
 
-[Click on this link to go to the section on "Font"](https://changhsinlee.com/pyderpuffgirls-ep7/#Font) and see the example on how to select cells.
+[Click on this link to go to the section on "Font"](https://changhsinlee.com/pyderpuffgirls-ep7/#font) and see the example on how to select cells.
 
 ## Example code #2
 
