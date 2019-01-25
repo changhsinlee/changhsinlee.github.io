@@ -47,7 +47,7 @@ But before that, let's walk through how to save a pandas dataframe to an Excel f
 
 First, I want to explain how to save the following dataframe to Excel. It uses the `dataframe_to_rows` function to write the rows into the spreadsheet.
 
-The idea is to open a `Workbook` object, write into a worksheet in the workbook, the close the workbook and save the file.
+The idea is to open a `Workbook` object, write into a worksheet in the workbook, then close the workbook and save the file.
 
 To pick which sheet to work on, I can use
 
@@ -518,7 +518,7 @@ Although `openpyxl` does support filter and sort, my take is that most of the fu
 
 ## Useful links
 
-* Working with styles: https://openpyxl.readthedocs.io/en/stable/styles.html
+* Working with styles: [https://openpyxl.readthedocs.io/en/stable/styles.html](https://openpyxl.readthedocs.io/en/stable/styles.html)
     Most of the styling syntax examples come from here.
 
 ## What's next?
