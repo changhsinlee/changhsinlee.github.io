@@ -99,7 +99,7 @@ In particular, what if we limit the Waterfall process to only one feature? By li
 
 It's like solving a math problem—it's easy when you _see_ the solution.
 
-I agree it sounds like common sense, but I didn't know about it—in fact, it took me a year in business to learn. Let explain why.
+I agree it sounds like common sense, but I didn't know about it—in fact, it took me a year in business to learn. Let me explain why.
 
 ### Shipping on time
 

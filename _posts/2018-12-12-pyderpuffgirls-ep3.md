@@ -35,7 +35,7 @@ import time
 def sql_job():
     print("I'm pretending to be a SQL job!")
 
-schedule.every.sunday.at('17:00').do(sql_job)
+schedule.every().sunday.at('17:00').do(sql_job)
 
 while True:
     schedule.run_pending()
