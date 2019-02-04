@@ -9,6 +9,8 @@ tags: [data-science, python, excel, automation]
 
 In this post, I will show you the how to automate Excel away using the Python package openpyxl, starting with every button on the Home Tab. No more drag and drop!
 
+I wrote this post with `Ctrl+F` in mind: find the button you want to replace, then search!
+
 ## Intro
 
 Excel doesn't need an intro. Let's get down to business. Bye Clippy 👋😊...ain't gonna miss you.
