@@ -3,7 +3,7 @@ layout: post
 title: "Making Excel Charts, Formulas, and Tables with Python—PyderPuffGirls Episode 8"
 comments: true
 lang: en
-header-img: "/figure/source/2019-02-05-pyderpuffgirls-ep8/drake-header-fb.png"
+header-img: "/figure/source/2019-02-05-pyderpuffgirls-ep8/drake-header.png"
 tags: [data-science, python, excel, automation]
 ---
 
