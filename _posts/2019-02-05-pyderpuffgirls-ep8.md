@@ -20,7 +20,7 @@ and conclude the series with a productivity tip in data science.
 
 ## Installation
 
-Like the [previous post](https://changhsinlee.com/pyderpuffgirls-ep7/), I will use `openpyxl` to make the Excel spreadsheet. But there is one more library to install if you want to follow this guide: PIL (Python Image Library). Otherwise you will see this error:
+Like the [previous post](https://changhsinlee.com/pyderpuffgirls-ep7/), I will use `openpyxl` to make the Excel spreadsheet. But there is one more library to install if you want to follow this guide: PIL (Python Image Library). Otherwise, you will see this error:
 
 ![error-insert-1](/figure/source/2019-02-05-pyderpuffgirls-ep8/error-in-inserting-image1.png)
 ![error-insert-2](/figure/source/2019-02-05-pyderpuffgirls-ep8/error-in-inserting-image2.png)
@@ -161,7 +161,7 @@ chart.shape = 10
 
 ## Writing Formula
 
-I can write an Excel formula by setting a cell to the correct formula name and data range. For example, to sum up the B column, I can use the `SUM` function in Excel by writing
+I can write an Excel formula by setting a cell to the correct formula name and data range. For example, to calculate the sum of column B, I can call the `SUM` function in Excel by writing
 
 ```py
 worksheet['B6'] = '=SUM(B2:B5)'
@@ -217,15 +217,17 @@ Therefore, I want to close this post with a final trick:
 
 ### The final trick
 
-Even if you have made yourself more efficient through automation,
+Even if you have made yourself more efficient through automation:
 
-> gently exceed your user's expectations.
+> Gently exceed your user's expectations
 
-It is tempting to give people what they want once it is ready—a fastfood mindset. If I can get a report in 5 minutes, then I can email them the result on minute 6, right? But this is a terrible pattern—new tasks and requests arrive the moment you send the old one out.
+because is tempting to give the users what they want once it is ready. 
+
+If I can get a report in 5 minutes, then I can email them the result on minute 6, right? But this is a terrible pattern—new tasks and requests arrive the moment you send the old one out. 
 
 ![drake](/figure/source/2019-02-05-pyderpuffgirls-ep8/drake.png)
 
-Instead, use the extra time that your machine saved you on problems that only the human mind can solve. I am still sending my reports on the same schedule, but now I have time to spend on discovering and developing _data insights_.  I think this is where the fun starts. So let's put an end to the boring stuff and have some fun.
+Instead of giving the users _what they want_, give them _what they need_. Send the reports out on the same schedule to buy you extra time. Use the extra time on problems that only the human mind can solve to discover and develop _data insights_.  I think this is where the real fun in data science is. So let's put an end to the boring stuff and have fun.
 
 ***
 
