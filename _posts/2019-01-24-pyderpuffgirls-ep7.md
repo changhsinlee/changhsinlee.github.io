@@ -3,7 +3,7 @@ layout: post
 title: "Replace the Home Tab in Excel with Python—PyderPuffGirls Episode 7"
 comments: true
 lang: en
-header-img: "/figure/source/2019-01-24-pyderpuffgirls-ep7/clippy-header.png"
+header-img: "/figure/source/2019-02-05-pyderpuffgirls-ep8/drake-header.png"
 tags: [data-science, python, excel, automation]
 ---
 
