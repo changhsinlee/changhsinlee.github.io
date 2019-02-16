@@ -139,7 +139,19 @@ Both of them will give me `df_ge`, which is a `great_expectations` dataframe for
 
 ### 2. Setting and getting expectation
 
-An expectation has no meaning until paired with a dataframe. Here, I will take a subset of my dataframe `df_ge` with only 2 permit types, then set an expectation to validate the street use permity type by:
+An expectation is a runtime test that has no meaning unless paired with a dataframe. There are many built in expectations 
+
+* [Expectation glossary](https://great-expectations.readthedocs.io/en/latest/glossary.html)
+
+or I can write my own
+
+* [Writing custom expectations](https://great-expectations.readthedocs.io/en/latest/custom_expectations.html)
+
+Here, I will only demonstrate a simple expectation 
+
+* `expect_column_values_to_be_in_set`
+
+by taking a subset of my dataframe `df_ge` with only 2 permit types, then set an expectation to validate the street use permity type by:
 
 1. Setting the expectation to cover only 1 out of 2 permit types to see how it fails.
 2. Setting the expectation to cover both permit types to see how it passes.
