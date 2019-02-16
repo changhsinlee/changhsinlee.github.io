@@ -20,11 +20,11 @@ The following story is one of the worst nightmare in data science:
 
 You spent weeks debugging, only to find out that it was due to a small change in business logic change that you are not aware of. The performance drop came from the fact that the data has been in a different state than before.
 
-You can't go back doing what you were doing because there is time pressure. As a result, you lost the momentum on your own project.
+You couldn't go back doing what you were doing because there was time pressure. As a result, you lost the momentum on your own project.
 
-Even worse, no one thanks you for fixing the model _because it was supposed to work in the first place._
+Even worse, no one thanked you for fixing the model _because it was supposed to work in the first place._
 
-It's a lose-lose deal and everyone is upset.
+It was a lose-lose deal from the outset and everyone was upset.
 
 ![experiment](/figure/source/2019-02-16-python-great-expectations/experiment.png)
 *Is my problem in the data or somewhere else?*
@@ -37,7 +37,7 @@ The problem comes down to one thing:
 
 and the knowledge of the builder did not pass down to the maintainer.
 
-When I build a new model, I probably spend more than 60% of my time understanding all the edges in my data to curatie a dataset for my model. There are lots of insights gained about business in this process.
+When I build a new model, I probably spend more than 60% of my time understanding all the edges in my data to curate a dataset for my model. There are lots of insights gained about business in this process.
 
 Where did those insights go? Jupyter Notebooks, of course. Even if I remember to write down all my findings, which is questionable, this process still creates a problem.
 
@@ -45,18 +45,18 @@ Where did those insights go? Jupyter Notebooks, of course. Even if I remember to
 
 ### Automate the knowledge transfer
 
-This is one of the hardest problem in a data science team–how do transfer knowledge?
+This is one of the hardest problem in a data science team–how do I transfer knowledge?
 
-If I spend 80% of the time on exploratory analysis, then I should be able to capture and automate my insights into code so the next person that takes on my project can
+If I spend 80% of the time on exploratory analysis, then I should be able to capture and automate my insights into code, so the next person that takes on my project can
 
 * read through the code to gain the same insights, and
-* see a warning when bad things happen to check against what I already know about the data.
+* see a warning when bad things happen and check against what I already know about the data.
 
 But there was no good tool that handles this problem. Most of the teams I know monitor the data pipeline with their own tools, and there is no consensus on how to transfer knowledge of this kind. Unit test does not help–the problem is not in the code, but in the data.
 
 ### Comes Great Expectations
 
-`great_expectations` is the first Python package that I saw is perfect for this task. It came from a tweet:
+`great_expectations` was the first Python package that I saw that was perfect for this task. It came from a tweet:
 
 * https://twitter.com/drob/status/1027566229245100033
 
@@ -139,7 +139,7 @@ Both of them will give me `df_ge`, which is a `great_expectations` dataframe for
 
 ### 2. Setting and getting expectation
 
-An expectation is a runtime test that has no meaning unless paired with a dataframe. There are many built in expectations 
+An expectation is a runtime test that has no meaning unless paired with a dataframe. There are many built in expectations
 
 * [Expectation glossary](https://great-expectations.readthedocs.io/en/latest/glossary.html)
 
@@ -147,7 +147,7 @@ or I can write my own
 
 * [Writing custom expectations](https://great-expectations.readthedocs.io/en/latest/custom_expectations.html)
 
-Here, I will only demonstrate a simple expectation 
+Here, I will only demonstrate a simple expectation
 
 * `expect_column_values_to_be_in_set`
 
