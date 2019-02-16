@@ -344,7 +344,7 @@ If you have experience in any of the above, please let me know.
 
 #### Other thoughts
 
-* In my discussion with Eugene Mandel, one of the main author of the library, he said that each expectation is a [falsifiable statement](https://en.wikipedia.org/wiki/Falsifiability)—now I feel like I'm doing science.
+* In my discussion with Eugene Mandel, who works with Abe Gong and James Campbell, the main authors of the library, he said that each expectation is a [falsifiable statement](https://en.wikipedia.org/wiki/Falsifiability)—now I feel like I'm doing science.
 
 * I see this as an extension of [Design by Contract](https://en.wikipedia.org/wiki/Design_by_contract) and [programming with assertions](http://www.pgbovine.net/programming-with-asserts.htm) from software engineering but in the context of data.
 
