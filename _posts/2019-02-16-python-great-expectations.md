@@ -58,7 +58,9 @@ But there was no good tool that handles this problem. Most of the teams I know m
 
 `great_expectations` was the first Python package that I saw that was perfect for this task. It came from a tweet:
 
-* https://twitter.com/drob/status/1027566229245100033
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">What tools exist for automated monitoring of incoming data that are oriented at data scientists/engineers?<br><br>Like unit testing for data: e.g. &quot;Yesterday the completion rate of courses dropped by 90%&quot;<br><br>I&#39;m aware of one, Great Expectations<a href="https://t.co/2YA0hKI5mb">https://t.co/2YA0hKI5mb</a></p>&mdash; David Robinson (@drob) <a href="https://twitter.com/drob/status/1027566229245100033?ref_src=twsrc%5Etfw">August 9, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 After playing with it, I can say that I loved this package and the idea behind it. Therefore, in this post, I will cover the absolute basics of getting started.
 
