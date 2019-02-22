@@ -52,7 +52,7 @@ If I spend 80% of the time on exploratory analysis, then I should be able to cap
 * read through the code to gain the same insights, and
 * see a warning when bad things happen and check against what I already know about the data.
 
-But there was no good tool that handles this problem. Most of the teams I know monitor the data pipeline with their own tools, and there is no consensus on how to transfer knowledge of this kind. Unit test does not help–the problem is not in the code, but in the data.
+But there was no good tool that handles this problem. Most of the teams I know monitor the data pipeline with their own tools, and there is no consensus on how to transfer knowledge of this kind. Unit test does not help–the problem is not in the code but in the data.
 
 ### Comes Great Expectations
 
