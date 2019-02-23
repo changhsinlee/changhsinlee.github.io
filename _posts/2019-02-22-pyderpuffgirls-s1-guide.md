@@ -20,7 +20,7 @@ I might make another post on how to use the command line on Windows if we decide
 
 ## The PyderPuffGirls
 
-**Disclaimer** Too many people has asked me this question so let me clarify where this name come from: because we wanted to give this course a name, and my colleague Keith Finch came up with one. I took and ran with it 😂.
+**Disclaimer** Too many people has asked me this question so let me clarify where this name came from: when we started, we wanted to give this series a name. After a heated discussion, my colleague Keith Finch came up with the winner. I took and ran with it 😂. As a prize, Keith gets a permanent spot in the post:
 
 ![Keith](/figure/source/2019-02-22-pyderpuffgirls-s1-guide/keith-buildings.png)
 *Keith with the Python Staff of Enlightenment†*
