@@ -20,12 +20,12 @@ I might make another post on how to use the command line on Windows if we decide
 
 ## The PyderPuffGirls
 
-**Disclaimer** Too many people has asked me this question so let me clarify where this name came from: when we started, we wanted to give this series a name. After a heated discussion, my colleague Keith Finch came up with the winner. I took and ran with it 😂. As a prize, Keith gets a permanent spot in the post:
+**Disclaimer** Too many people have asked me this question so let me clarify where this name came from: when we started, we wanted to give this series a name. After a heated discussion, my colleague Keith Finch came up with the winner. I took and ran with it 😂. As a prize, Keith gets a permanent spot in the post:
 
 ![Keith](/figure/source/2019-02-22-pyderpuffgirls-s1-guide/keith-buildings.png)
 *Keith with the Python Staff of Enlightenment†*
 
-PyderPuffGirls has 8 episode that form 3 groups.
+PyderPuffGirls has a total of 8 episodes that form 3 groups.
 
 ### Group 1: Automating Excel reports
 
@@ -54,7 +54,7 @@ In other words, this two posts turn your workflow into an asset you can run it w
 * [Episode 3: Don't Wait, Schedule and Relax Instead](https://changhsinlee.com/pyderpuffgirls-ep3/) - how to use `scheduler`
 * [Episode 4: Filling Up Your Inbox with Goodies](https://changhsinlee.com/pyderpuffgirls-ep4/) - how to send email via SMTP
 
-### Group 3: Reduce SQL headaches
+### Group 3: Reducing SQL headaches
 
 These two posts deal with the problem of simplifying a long and repetitive SQL query that leads to mistakes and errors.
 
