@@ -18,11 +18,9 @@ I speak at conferences and meetups. You can find [a sample of the talks I gave i
 
 You can reach me by tweeting at [@ChangLeeTW](https://twitter.com/ChangLeeTW). You can also send an email to lee.changhsin (Gmail account).
 
-This blog is built on [Jekyll Now](https://github.com/barryclark/jekyll-now) by Barry Clark.
+### My Newsletter
 
-### Subscribe to my newsletter
-
-Summary of posts and new ideas I am experimenting that goes out about once a month—you can get in the loop here:
+Summary of posts and new ideas I am experimenting that goes out about once a month. Get in the loop here:
 
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
@@ -34,7 +32,6 @@ Summary of posts and new ideas I am experimenting that goes out about once a mon
 <div id="mc_embed_signup">
 <form action="https://changhsinlee.us20.list-manage.com/subscribe/post?u=3f0aeffb807b292a987cb206d&amp;id=397cacef3e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<label for="mce-EMAIL">Subscribe to my newsletter</label>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3f0aeffb807b292a987cb206d_397cacef3e" tabindex="-1" value=""></div>
@@ -44,3 +41,5 @@ Summary of posts and new ideas I am experimenting that goes out about once a mon
 </div>
 
 <!--End mc_embed_signup-->
+
+This blog is built on [Jekyll Now](https://github.com/barryclark/jekyll-now) by Barry Clark.
