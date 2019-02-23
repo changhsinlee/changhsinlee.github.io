@@ -205,7 +205,7 @@ Thanks to Brennan Hodge, Jared Cline, Caroline Collins, Rebecca Johnson, David C
 
 ---
 
-Someone asked me to provide email subscription, so I finally set it up. If you like this series and want to keep up with other series and posts, then you might want to consider subscribing to my mailing list.
+Back in Episode 1, [a redditor asked me to provide email subscription](https://www.reddit.com/r/datascience/comments/a0oj2a/a_python_tutorial_for_the_bored_analysts/eakia92/), so I finally set it up. If you like this series and want to keep up with other series and posts, then you might want to consider subscribing to my mailing list.
 
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
