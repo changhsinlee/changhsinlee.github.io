@@ -25,7 +25,7 @@ I might make another post on how to use the command line on Windows if we decide
 ![Keith](/figure/source/2019-02-22-pyderpuffgirls-s1-guide/keith-buildings.png)
 *Keith with the Python Staff of Enlightenment†*
 
-PyderPuffGirls has 8 episode that put into 3 groups.
+PyderPuffGirls has 8 episode that form 3 groups.
 
 ### Group 1: Automating Excel reports
 
