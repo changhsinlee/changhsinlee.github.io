@@ -531,3 +531,8 @@ The next post is the last post in this 8-post series. To finish, let's dig even 
 
 * define formula, and
 * make charts
+
+**More PyderPuffGirls**
+
+* [Episode 6: Make a Workflow Config with YAML](https://changhsinlee.com/pyderpuffgirls-ep6/)
+* [Episode 8: Making Excel Charts, Formulas, and Tables with Python](https://changhsinlee.com/pyderpuffgirls-ep8/)

@@ -166,8 +166,7 @@ Let's look into what can I do with Excel in Python next time.
 
 ***
 
-**The PyderPuffGirls**
-
-More on abstractions
+**More PyderPuffGirls**
 
 * [Episode 5: Untangle the SQL Mess with Jinja](https://changhsinlee.com/pyderpuffgirls-ep5/)
+* [Episode 7: Replace the Home Tab in Excel with Python](https://changhsinlee.com/pyderpuffgirls-ep7/)

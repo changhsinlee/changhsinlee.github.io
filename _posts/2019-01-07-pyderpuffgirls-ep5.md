@@ -462,11 +462,9 @@ In particular, I will use a library called `PyYAML`, that reads a configuration 
 
 ***
 
-**The PyderPuffGirls**
+**More PyderPuffGirls**
 
-* [Episode 1: A Python Tutorial for the Bored Me](https://changhsinlee.com/pyderpuffgirls-ep1/)
-* [Episode 2: How to Query a Database in Python](https://changhsinlee.com/pyderpuffgirls-ep2/)
-* [Episode 3: Don't Wait, Schedule and Relax Instead](https://changhsinlee.com/pyderpuffgirls-ep3/)
 * [Episode 4: Filling Up Your Inbox with Goodies](https://changhsinlee.com/pyderpuffgirls-ep4/)
+* [Episode 6: Make a Workflow Config with YAML](https://changhsinlee.com/pyderpuffgirls-ep6/)
 
 Please feel free to post in the comments section or tweet at [@ChangLeeTW](https://twitter.com/ChangLeeTW) for questions or comments.
