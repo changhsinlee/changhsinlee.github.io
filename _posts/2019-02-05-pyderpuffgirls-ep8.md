@@ -221,15 +221,19 @@ Even if you have made yourself more efficient through automation:
 
 > Gently exceed your user's expectations
 
-because is tempting to give the users what they want once it is ready. 
+because is tempting to give the users what they want once it is ready.
 
-If I can get a report in 5 minutes, then I can email them the result on minute 6, right? But this is a terrible pattern—new tasks and requests arrive the moment you send the old one out. 
+If I can get a report in 5 minutes, then I can email them the result on minute 6, right? But this is a terrible pattern—new tasks and requests arrive the moment you send the old one out.
 
 ![drake](/figure/source/2019-02-05-pyderpuffgirls-ep8/drake.png)
 
 Instead of giving the users _what they want_, give them _what they need_. Send the reports out on the same schedule to buy you extra time. Use the extra time on problems that only the human mind can solve to discover and develop _data insights_.  I think this is where the real fun in data science is. So let's put an end to the boring stuff and have fun.
 
 ***
+
+**More PyderPuffGirls**
+
+* [A Python Tutorial on Automating Boring Data Workflow—The PyderPuffGirls](https://changhsinlee.com/pyderpuffgirls-s1-guide/)
 
 If you have read through all 8 posts of PyderPuffGirls, PLEASE LEAVE A COMMENT BELOW.
 
