@@ -14,7 +14,7 @@ List of events, meetups, and conferences that I spoke at:
 
 ![ml-projects](/figure/source/speaking/2018-ml-projects.png)
 
-* [Charlotte Bots and AI meetup](https://www.meetup.com/Charlotte-Bots-and-AI-Meetup/) [Link to slides](https://drive.google.com/open?id=1npyJ10zMhVNu5xsIbEyp0NN0XqquHjvH)
+* [Charlotte Bots and AI meetup](https://www.meetup.com/Charlotte-Bots-and-AI-Meetup/) - [Link to slides](https://drive.google.com/open?id=1npyJ10zMhVNu5xsIbEyp0NN0XqquHjvH)
 
 **如何思考並運用時間**
 
@@ -36,10 +36,10 @@ List of events, meetups, and conferences that I spoke at:
 
 **An Only One Step Ahead Guide for Machine Learning Projects**
 
-* [DataSciCon](http://datascicon.tech/), Atlanta GA [Link to video](https://www.recallact.com/presentation/only-one-step-ahead-guide-machine-learning-projects) [Link to slides](https://drive.google.com/open?id=1K6Zz5PYWAlJzLAc0Ft3ooKP5iOf6F50x)
+* [DataSciCon](http://datascicon.tech/), Atlanta GA - [Link to video](https://www.recallact.com/presentation/only-one-step-ahead-guide-machine-learning-projects) - [Slides](https://drive.google.com/open?id=1K6Zz5PYWAlJzLAc0Ft3ooKP5iOf6F50x)
 * [DevSpace](https://www.devspaceconf.com/), Huntsville AL
 * [Deep Learning RTP](https://www.meetup.com/Deep-Learning-RTP/), Raleigh NC
-* [CodeOnTheBeach](https://www.codeonthebeach.com/), Jacksonville FL [video](https://youtu.be/drv64KtC_xw)
-* [PyOhio](https://www.pyohio.org/2018/), Columbus OH [video](https://youtu.be/7D8unG3XMzU)
+* [CodeOnTheBeach](https://www.codeonthebeach.com/), Jacksonville FL - [Link to video](https://youtu.be/drv64KtC_xw)
+* [PyOhio](https://www.pyohio.org/2018/), Columbus OH - [Link to video](https://youtu.be/7D8unG3XMzU)
 * [Davidson Machine Learning Group](https://www.meetup.com/Davidson-Machine-Learning-Meetup/), Davidson NC
 * [ISACA Charlotte](http://www.isaca.org/chapters3/Charlotte/Pages/default.aspx), Charlotte NC
