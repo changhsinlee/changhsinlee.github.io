@@ -3,7 +3,7 @@ layout: post
 title: "我怎麼學英文─(1) 方向和工具"
 comments: true
 lang: ch
-header-img: "/figure/source/2019-03-10-learn-english-tools/thumbnail.png"
+header-img: "/figure/source/2019-03-10-learn-english-tools/thumbnail.jpg"
 tags: [學英文]
 ---
 
