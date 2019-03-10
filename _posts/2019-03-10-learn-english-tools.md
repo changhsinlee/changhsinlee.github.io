@@ -130,11 +130,13 @@ WordWeb 免費，而且我認為詞的意義相當精準，我從大三用到現
 
 ## 一些線上工具
 
-### Forvo.com
+### Forvo
+
+* [https://forvo.com/](https://forvo.com/)
 
 這個網站相當於是語言學的維基百科。他的概念是每個人都可以錄一段自己念單字的發音。舉例來說，如果我不知道怎麼念 costco：
 
-* https://forvo.com/search/costco/en/
+* [https://forvo.com/search/costco/en/](https://forvo.com/search/costco/en/)
 
 ![](/figure/source/2019-03-10-learn-english-tools/costco.png)
 
@@ -142,7 +144,7 @@ WordWeb 免費，而且我認為詞的意義相當精準，我從大三用到現
 
 Forvo.com 另一個好處是可以用來查地域性的發音。舉例來說，我以前住的Nashville，美國南部人遇到 "ville" 會發類似 "fil" 的音而不是向其他地區一樣發 "ville"，這時聽一下這四個不同的發音就很清楚：
 
-* https://forvo.com/word/nashville/
+* [https://forvo.com/word/nashville/](https://forvo.com/word/nashville/)
 
 ![](/figure/source/2019-03-10-learn-english-tools/nashville.png)
 
@@ -152,7 +154,7 @@ Forvo.com 另一個好處是可以用來查地域性的發音。舉例來說，�
 
 ### Urban Dictionary
 
-* https://www.urbandictionary.com/
+* [https://urbandictionary.com/](https://urbandictionary.com/)
 
 有些人看到我列出這個網站，可能會覺得我在搞笑。不過在網路世代，要了解網路論壇如 Reddit，或是和英文為母語的朋友傳簡訊中一些縮寫、新詞、幹話等等，來這裡查通常是最快的。當然網站兒童不宜，所以請注意。
 
