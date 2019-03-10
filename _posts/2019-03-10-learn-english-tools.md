@@ -19,7 +19,7 @@ tags: [學英文]
 
 ## 我的經驗
 
-我第一次接觸到英文是小學一年級，玩紅色警戒一，那時沒有中文版。
+我第一次接觸到英文是小學二年級，玩紅色警戒一。松崗第三波發行，那時沒有中文版。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qtb4uow940c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
