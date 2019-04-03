@@ -7,7 +7,7 @@ header-img: "/figure/source/2019-04-03-agile-ds-scrum-kanban/thumbnail.png"
 tags: [data-science, agile, methodology]
 ---
 
-Scrum is one of the most popular Agile framework. Data scientist from different companies, however, have been saying that Scrum does not work for data science projects. Why is that?
+Scrum is one of the most popular Agile framework. Data scientist from different teams, however, have been telling me that Scrum does not work for data science projects. Why is that?
 
 In this post, I want to examine the two most common Agile framework: Scrum and Kanban, their fundamental difference, and how they apply to data science.
 
