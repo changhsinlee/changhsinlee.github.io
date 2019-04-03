@@ -38,7 +38,7 @@ What does ambiguity mean?
 
 ### Software development
 
-I do not have much experience in building software. If I want to build a web app or a mobile app, however, I can ask my developer friends, and they can help me come up with a solid spec for me to break into smaller tasks later.
+I do not have much experience in building software. If I want to build a web app or a mobile app, however, I can ask my developer friends and they can help me come up with a solid spec for me to break into smaller tasks later.
 
 In other words, I can write a spec to ship the first version of my app.
 
@@ -72,13 +72,13 @@ Let me say it again: _you can't do that in data science._
 
 ![A messy scrum board](/figure/source/2019-04-03-agile-ds-scrum-kanban/scrum-board.png)
 
-In my experience with data science projects, what you set out to do often turn out to be impossible and there is nothing you can do but pivoting to a new goal.
+In my experience with data science projects, what you set out to do often turns out to be impossible and there is nothing you can do but pivoting to a new goal.
 
 Let's say I'm in the middle of a two week sprint and I found that my sprint goal is impossible. What can I do?
 
 Common sense says that I can ditch the sprint goal and meet with my team to set a new goal within the sprint, so we don't waste another week of time.
 
-But this means that I expect to have interruptions within the sprint. If the goal of sprints is to minimize interruption and boost productivity, and I know interruptions are inevitable, why put a timebox in the first place?
+But this means that I expect to have interruptions within the sprint. If the goal of sprints is to minimize interruption and boost productivity and I know interruptions are inevitable, why put a timebox in the first place?
 
 ## Two workflows
 
@@ -113,11 +113,11 @@ The key constraint in Kanban is a cap on how many tasks can be in WIP at the sam
 
 ![Work in Progress](/figure/source/2019-04-03-agile-ds-scrum-kanban/WIP.png)
 
-(In Scrum, the constraint is the time: sprints are timeboxes. Frameworks use constraints to limit the project complexity and scope, and that's why they work.)
+(In Scrum, the constraint is the time: sprints are timeboxes. Frameworks use constraints to limit the project complexity and scope and that's why they work.)
 
 In the To-Do queue, tasks are ranked by their priorities. When a task in WIP is finished, the team picks up the task on the top of To-Do.
 
-You may ask, what happens when a card gets stuck in WIP indefinitely? This is a real problem, and in Kanban, project manager tracks _cycle time_ i.e. the time between starting and delivering the task, or in other words, how long did the card sits in WIP.
+You may ask, what happens when a card gets stuck in WIP indefinitely? This is a real problem. So, in Kanban, project manager tracks _cycle time_ i.e. the time between starting and delivering the task, or in other words, how long did the card sits in WIP.
 
 The team can set an agreement to review a card if any card was stuck in WIP for say, one week, then take action to resolve the issue.
 
@@ -159,7 +159,7 @@ There's always question around data:
 * how is data
 * did any of the above assumption changed at some point in my data
 
-For example, if I have the healthcare data by zip code and my goal is to model diabetes patient care, and I have a dataset that comes from CDC based on phone survey data, then I might want to ask:
+For example, if I have the healthcare data by zip code and my goal is to model diabetes patient care and I have a dataset that comes from CDC based on phone survey data, then I might want to ask:
 
 * Is there a diabetes cluster somewhere in my city? Why?
 
@@ -189,6 +189,6 @@ Let's think through this question later.
 
 I don't see anyone put their data science Kanban board in public, but here's one from software development:
 
-Subnautica is one of my favorite video game of all time, and they let everyone track their development progress on a public Kanban board:
+Subnautica is one of my favorite video game of all time and they let everyone track their development progress on a public Kanban board:
 
 https://trello.com/b/yxoJrFgP/subnautica-development
