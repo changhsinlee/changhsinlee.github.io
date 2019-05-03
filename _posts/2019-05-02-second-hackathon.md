@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Winning my Second Hackathon"
+title: "Winning My Second Hackathon"
 comments: true
 lang: en
 header-img: "/figure/source/2019-05-02-second-hackathon/thumbnail.png"
