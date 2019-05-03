@@ -7,7 +7,7 @@ header-img: "/figure/source/2019-05-02-second-hackathon/thumbnail.png"
 tags: [data-science, design-thinking]
 ---
 
-On March 30, 2019, I won HackathonCLT. Here are my reflections.
+On March 24, 2019, I won HackathonCLT. Here are my reflections.
 
 ![Our team holding the check](/figure/source/2019-05-02-second-hackathon/midnight.jpg)
 *Team Welch Labs: Me, Kurt, and Stephen at 2:30 AM*
