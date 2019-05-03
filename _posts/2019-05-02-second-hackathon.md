@@ -64,7 +64,9 @@ All the items that I brought for sleeping turned out to be useless—we didn't s
 
 ## Design thinking helped us win
 
-When we were chatting and getting dinner before we started coding, Kurt mentioned that he went to a UX/UI meetup for a design thinking workshop a few weeks ago.
+We were chatting and getting dinner at the venue, and Kurt mentioned that he went to a UX/UI meetup for a design thinking workshop a few weeks ago.
+
+When he mentioned the word **design thinking**, I was like _hell yeahhhhh_.
 
 I first learned about design thinking from Code on The Beach last August. One of the talk I went was Jon Bosworth's ([@jbosworth](https://twitter.com/jbosworth)) talk on how they used design thinking to plan out the conference.
 
