@@ -68,15 +68,14 @@ We were chatting and getting dinner at the venue, and Kurt mentioned that he wen
 
 When he mentioned the word **design thinking**, I was like _hell yeahhhhh_.
 
-I first learned about design thinking from Code on The Beach last August. One of the talk I went was Jon Bosworth's ([@jbosworth](https://twitter.com/jbosworth)) talk on how they used design thinking to plan out the conference.
+I first learned about design thinking from Code on The Beach last August. One of the talk I went to was Jon Bosworth's ([@jbosworth](https://twitter.com/jbosworth)) talk on how they used design thinking to plan the conference.
 
 Here's the talk: Validating A Product Before Writing A Line Of Code: A Five Day Design Sprint in 60 Minutes.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QtthmhAd4og" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+It was my first contact with design thinking—and I had been a huge fan of the process since.
 
-It was my first contact with design thinking and I had been a huge fan of the process since.
-
-The basic idea for us was that we wanted to generate lots of ideas in a short period and validate the usability before getting down to code.
+For us, we wanted to use try it because we wanted to generate lots of ideas in a short period and validate the usability before getting down to code.
 
 We wanted to design a good solution, but there was a big constraint: we only had about 12 hours to come up with a working solution. How much time should we spend on design? We decided to go slow and spend at least 1-2 hours to work out a plan before we started coding.
 
@@ -86,7 +85,7 @@ To generate ideas, Kurt proposed that we use an exercise from the design thinkin
 
 * https://designsprintkit.withgoogle.com/methodology/phase3-sketch/crazy-eights
 
-The exercise is simple: you take a blank sheet of paper, split it into 8 sections, and make 8 sketches on ideas about the topic at hand _in 8 minutes_. It was _hard_.
+The exercise was simple: you take a blank sheet of paper, split it into 8 sections, and make 8 sketches on ideas about the topic at hand _in 4 minutes_. 30 seconds per sketch. It was _hard_.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L30noD9o9Ns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
