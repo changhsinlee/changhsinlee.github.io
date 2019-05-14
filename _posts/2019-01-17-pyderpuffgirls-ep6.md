@@ -110,7 +110,7 @@ When I read the example above into Python,
 ```py
 import yaml
 with open('d:/pyderpuffgirls/ep6/sample.yaml') as file:
-    data = yaml.load(file)
+    data = yaml.safe_load(file)
 ```
 
 this is what `data` looks like
