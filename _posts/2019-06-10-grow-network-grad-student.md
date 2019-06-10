@@ -1,15 +1,14 @@
 ---
-layout: page
-title: Growing your network when you have none as a student
-comments: false
+layout: post
+title: Growing Your Network When You Have None as a Student
+comments: true
 lang: en
-header-img: "/figure/source/grow-network-grad-student/thumbnail.png"
-permalink: /job-draft/
+header-img: "/figure/source/2019-06-10-grow-network-grad-student/thumbnail.png"
 ---
 
-That was my experience: no connection with anyone in the industry for the job I want to know more about. What can I do?
+That was my experience: no connection with anyone in the industry for the job I want to know more about. What can I do? I will share with you two methods that worked for me.
 
-I will share with you two routes that have worked for me.
+PS. *This post is a guest post for [Big Math Network](https://bigmathnetwork.org/2019/05/31/growing-your-network-when-you-have-none-as-a-student/)*
 
 ## Unanswered questions
 
@@ -27,7 +26,7 @@ It does not mean the work I am doing is boring or not valuable. Instead, it mean
 
 I had no idea what I was trying to get into. Do I even want to hang out with the people in the industry? What does the work environment look like?
 
-![branches](/figure/source/grow-network-grad-student/branches.png)
+![branches](/figure/source/2019-06-10-grow-network-grad-student/branches.png)
 *Many options, little guidance*
 
 ## Why talk to people?
@@ -62,7 +61,7 @@ Although I had no idea what the talks were about, I stuck to a few meetups and k
 
 This was basically how I started making connections. You can [read my experience at the Developer Launchpad](https://changhsinlee.com/meetup-experience-dev-launchpad/) in Nashville and see what it was like for me.
 
-![coffee](/figure/source/grow-network-grad-student/coffee.png)
+![coffee](/figure/source/2019-06-10-grow-network-grad-student/coffee.png)
 *A cup of coffee or a drink with professionals goes a long way.*
 
 #### What can you do
