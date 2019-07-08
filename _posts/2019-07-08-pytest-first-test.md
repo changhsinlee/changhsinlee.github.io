@@ -57,7 +57,13 @@ I will show you how I approach writing code these days. If you works with data a
 
 ### A screencast example
 
-At the end of the section, you can check the screencast on YouTube to see how I write my test in PyCharm.
+At the end of the section, you can watch the screencast on YouTube to see how I write my test in PyCharm.
+
+#### Jupyter Notebook
+
+All of my code can be found in the Jupyter Notebook:
+
+* [Link to Jupyter Notebook](https://github.com/changhsinlee/changhsinlee.github.io/blob/master/figure/source/2019-07-08-pytest-first-test/pytest-example.ipynb).
 
 In this example, I will use Python and the [Titanic dataset](https://www.kaggle.com/c/titanic) to demonstrate how I follow the steps.
 
