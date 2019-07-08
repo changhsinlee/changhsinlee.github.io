@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Becoming a Better Data Scientist: Writing Your First Test
+title: "Becoming a Better Data Scientist: Writing Your First Test"
 comments: true
 lang: en
 header-img: "/figure/source/2019-07-08-pytest-first-test/thumbnail.png"
+tags: [data-science, tests, python]
 ---
 
 If you have never written a test before, now it's time to write the first test in a few simple steps.
