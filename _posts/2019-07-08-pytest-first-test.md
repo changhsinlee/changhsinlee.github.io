@@ -89,7 +89,7 @@ The result is stored in the variable `output` so I can show it in my Jupyter Not
 
 Honestly, I don't know if it is calculating the numbers correctly: the numbers doesn't look _too wrong_. But the format of output is what I wanted, so it is a good time to put this test into a test case and pin the behavior down.
 
- #### Step 3: Turn it into a test.
+#### Step 3: Turn it into a test.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sySUSDVGKkA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
