@@ -141,6 +141,7 @@ Here is the code that I'm going to explain in this section.
 import os
 import pandas as pd
 from pathlib import Path
+from sqlalchemy import create_engine
 
 username = os.environ['PSQL_USERNAME']
 password = os.environ['PSQL_PASSWORD']
