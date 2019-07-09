@@ -19,17 +19,18 @@ Recently, I noticed a flaw in my development workflow. Let's say I want to write
 * Then, I try a few things to transform my data into an output `df` that looks like what I want, often with `df.head()`and `df.shape` to make sure it doesn't look wrong at a first glance.
 * Afterwards, I would spot check a few things to convince myself that this code looks good, then put it into a function in a Python `.py` file.
 
-Before I write code or modify code, I always come up with a few cases in Jupyter Notebook that I can use to check and validate. If the change I make works with the cases that I come up with, then I am confident that what I put in is a good good.
+Before I write code or modify code, I always come up with a few cases in Jupyter Notebook that I can use to check and validate. If the change I make works with the cases that I come up with, then I am confident that what I put in is good stuff.
 
 In other words, I validate my code in Jupyter Notebook to make sure that I have seen my code ran successfully, at least once, before I add the new code to the source code.
 
-Now, I've been using into this workflow for over a year.Where is the problem?
+Now, I've been using into this workflow for over a year. Where is the problem?
 
 Ummm...I was coming up with my own test cases _every single time_.
 
-What I have noticed was that—when I need to modify code, it was easier for me to make a new example than digging through the pile of notebooks I had and recover the example I made 3 months ago.
+What I have noticed was that—when I need to modify code, it was easier for me to make a new example than digging through the pile of notebooks I had to recover the example I made 3 months ago.
 
 ![Let's reinvent the wheel](/figure/source/2019-07-08-pytest-first-test/wheel.png)
+*What I was doing when I try to make another example*
 
 ### Stop reinventing the wheel
 
