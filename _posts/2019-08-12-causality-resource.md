@@ -6,9 +6,9 @@ lang: en
 tags: [data-science]
 ---
 
-This is a list for causal model learning resources. It is updated constantly whenever I find new material. I have not read or used all of them.
+I found causal modeling hard to get into after reading Pearl's book, so I started collecting resources. 
 
-If you have not heard of causal modeling, I recommend starting with Judea Pearl's popular science book [The Book of Why](https://amzn.to/2KntAg8).
+This list is updated whenever I find something new. They are not what I recommend unless specified because I may have not used it. If you have not heard of causal modeling, I recommend starting with Judea Pearl's popular science book [The Book of Why](https://amzn.to/2KntAg8).
 
 The Amazon links for books in this list are affiliate links.
 
