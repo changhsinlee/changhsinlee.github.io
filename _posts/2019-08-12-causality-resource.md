@@ -25,6 +25,8 @@ The Amazon links for books in this list are affiliate links.
 
 ## Blog posts
 
+
+* [Causal Data Science (Medium)](https://medium.com/causal-data-science/causal-data-science-721ed63a4027)
 * [Causality in Machine Learning](http://www.unofficialgoogledatascience.com/2017/01/causality-in-machine-learning.html)
 * [Causal Random Forest](https://www.markhw.com/blog/causalforestintro)
 * Causal Inference with Python: 3 parts
