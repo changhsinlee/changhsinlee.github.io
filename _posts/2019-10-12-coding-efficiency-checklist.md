@@ -46,3 +46,5 @@ I think learning the basics of efficient development is important, but I didn't 
 ### Misc
 
 - [ ] I know how to use a profiler to look for bottlenecks.
+
+What has helped you to become more efficient as a coder? Please share in the comments or tweet at [@ChangeLeeTW](https://twitter.com/ChangLeeTW) and let me know.
