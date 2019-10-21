@@ -28,6 +28,7 @@ I think knowing how to do these things is a good start to becoming efficient in 
     - [ ] I know how to rename a method or a class for all occurences.
     - [ ] I know how to move a function or class to a different file.
     - [ ] I know how to use a linter and set up style guides.
+<br>
 - [] I know how to pin down project dependency for development.
 - [] I know how to create the development environment with dependencies for a project 
 - [] I know how to package my code for distribution.
