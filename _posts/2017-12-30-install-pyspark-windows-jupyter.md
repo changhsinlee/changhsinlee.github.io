@@ -106,6 +106,10 @@ If you see the following output, then you have installed PySpark on your Windows
 
 ![first select](/figure/source/2017-12-30-install-pyspark-windows-jupyter/first-select2.png)
 
+## Misc
+
+* Update (10/30/19): Tip from 	
+Nathaniel Anderson in comments: you might want to install Java 8 and point JAVA_HOME to it if you are seeing this error: "Py4JJavaError: An error occurred..." [StackOverflow Answer](https://stackoverflow.com/a/52506734/8584707)
 
 Please leave a comment in the comments section or tweet me at [@ChangLeeTW](https://twitter.com/ChangLeeTW) if you have any question.
 
