@@ -7,7 +7,7 @@ header-img: "/figure/source/2019-11-12-pyjanitor/thumbnail.png"
 tags: [data-science, python, pandas]
 ---
 
-I want to share a Python package that makes your pandas code more maintainable.
+I want to share a Python package that makes your pandas code more readable.
 
 ## How do I like my pandas code
 
