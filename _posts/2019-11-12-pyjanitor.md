@@ -168,7 +168,7 @@ The current design of `janitor.then()` only takes in functions with a single par
 
 ### Other handy functions
 
-PyJanitor has other functions that may help you simplify code. For example,
+PyJanitor has other functions that may help you simplify code that [you can find in the documentation](https://pyjanitor.readthedocs.io/). For example,
 
 * [janitor.remove_columns()](https://pyjanitor.readthedocs.io/reference/janitor.functions/janitor.remove_columns.html#janitor.remove_columns)
 
