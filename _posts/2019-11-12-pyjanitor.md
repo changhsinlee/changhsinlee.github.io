@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PyJanitor and pandas method chaining"
+title: "PyJanitor and Pandas Method Chaining"
 comments: true
 lang: en
 header-img: "/figure/source/2019-11-12-pyjanitor/thumbnail.png"
