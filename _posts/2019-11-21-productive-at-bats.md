@@ -17,9 +17,9 @@ One thing he taught me was how he evaluates hitters.
 
 ### 1 in 4
 
-Baseball is a hard sport. According to [baseball-reference](https://www.baseball-reference.com/leagues/MLB/2019.shtml), the average batting average in Major League in 2019 was .252. The average number of at-bats per hitter per game is around 4. Only 1 in 4 at-bats becomes hit.
+Baseball is a hard sport. According to [baseball-reference](https://www.baseball-reference.com/leagues/MLB/2019.shtml), the average batting average in Major League in 2019 was .252. The average number of at-bats per hitter per game is around 4. Only 1 at-bat in 4 became a hit.
 
-In other words, the best hitters in the world _fail 3 times a day._
+In other words, the best hitters in the world _failed 3 times a day._
 
 ![a baseball at bat](/figure/source/2019-11-21-productive-at-bats/at-bat.png)
 
