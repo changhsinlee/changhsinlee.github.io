@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to make an internal Python package"
+title: "How to Make an Internal Python Package"
 comments: true
 lang: en
 header-img: "/figure/source/2019-12-27-python-package/thumbnail.png"
