@@ -8,7 +8,9 @@ header-img: "/figure/source/2019-12-27-python-package/thumbnail.png"
 tags: [python]
 ---
 
-What do you need to make a Python package?
+A guide on writing your first Python package.
+
+> What do you need to make a Python package?
 
 I have been asked this question many times at work, so let's write it down.
 
@@ -505,11 +507,7 @@ or to install from a particular branch in this case `mcchicken`:
 pip install git+https://github.com/changhsinlee/python-packaging-tutorial.gi t@mcchicken
 ```
 
-The code from this post is in here. Try it yourself:
-
-* https://github.com/changhsinlee/python-packaging-tutorial/tree/mcchicken
-
-## Go make your own
+## Your turn
 
 In this tutorial, I showed you 
 
@@ -517,4 +515,4 @@ In this tutorial, I showed you
 2. How to structure the project
 3. How to install from remote repository
 
-Let's turn your useful scripts into packages and share with others.
+Let's turn your Python code into packages and share with others.
