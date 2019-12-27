@@ -60,11 +60,13 @@ Let's break it down with an example.
 
 ## Making a package `lunch_options`
 
-In this first example, I will demonstrate it with a package called `lunch_options`.
+In this post, I will make a package called `lunch_options`.
 
 ### Folder structure
 
-Let's make a folder called `lunch_options`. Then make another folder in `lunch_options` also called `lunch_options` e.g. `lunch_options/lunch_options`.
+First, let's make a folder called `lunch_options` for the project. 
+
+Then, make another folder in `lunch_options` also called `lunch_options` e.g. `lunch_options/lunch_options`.
 
 Your project structure will now look like this (`/` indicates a folder):
 
@@ -78,17 +80,18 @@ I will refer to
 * the top folder as the project folder, and
 * the bottom folder as the source code folder,
 
-throughout the tutorial.
+throughout the post.
 
 ### Create virtual environment (optional)
 
-This is optional but recommended. I want to show you how to make a virtual environment and activate it in Python for a safe package development environment.
+This is optional but recommended. Making a virtual environment creates a safe package development environment that avoids many dependency issues down the road.
 
 Open up your command line or Terminal and go to the project (top) folder. 
 
 In the top folder, type the following: (if your python points to python2, then use `python3` in place of `python`)
 
-```py
+```sh
+# In lunch_options/
 python -m venv .venv
 ```
 This creates a folder that hosts the virtual environment inside `lunch_options/.venv`, so your project now looks like 
@@ -110,10 +113,12 @@ Then, activate the virtual environment:
 # Unix
 source .venv/bin/activate
 
-# type "deactivate" to deactivate
+# type "deactivate" to deactivate the virtual env
 ```
 
 After activating the virtual environment, type `pip freeze` to check that there is no package installed—it should return nothing.
+
+![Activate virtualenv](/figure/source/2019-12-27-python-package/activating-venv.png)
 
 ### Add code
 
