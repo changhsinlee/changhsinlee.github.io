@@ -471,6 +471,8 @@ with this new `setup.py`, when we run `pip install .`, it correctly moves `fastf
 
 ![fastfood shows up in site-packages](/figure/source/2019-12-27-python-package/site-packages-after.png)
 
+Thehe reason why you see people use `setuptools.find_packages()` in the `package=find_packages()` is because once your project grows large, it makes more sense to recursively walk through the project structure than adding the folders one by one.
+
 Let's try importing again
 
 ```
