@@ -72,7 +72,7 @@ Your project structure will now look like this (`/` indicates a folder):
 
 ```
 lunch_options/
-    lunch_options/
+└──lunch_options/
 ```
 
 I will refer to
@@ -98,8 +98,8 @@ This creates a folder that hosts the virtual environment inside `lunch_options/.
 
 ```
 lunch_options/
-  .venv/
-  lunch_options/
+├──.venv/
+└──lunch_options/
 ```
 
 with no file other than the ones in `.venv`.
@@ -131,10 +131,10 @@ Create them as empty files in the respective folders.
 
 ```
 lunch_options/
-  setup.py
-  .venv/
-  lunch_options/
-    __init__.py
+├──setup.py
+├──.venv/
+├──lunch_options/
+|  └──__init__.py
 ```
 
 #### `__init__.py`
@@ -241,10 +241,10 @@ Our current project structure looks like this
 
 ```
 lunch_options/
-  setup.py
-  .venv/
-	lunch_options/
-	    __init__.py
+├──setup.py
+├──.venv/
+├──lunch_options/
+|  └──__init__.py
 ```
 
 and we will modify it to organize the functions better.
@@ -285,12 +285,12 @@ Let's add two more files into our project, `chipotle.py` and `wendys.py`
 
 ```
 lunch_options/
-  setup.py
-  .venv/
-	lunch_options/
-    __init__.py
-    chipotle.py
-    wendys.py
+├──setup.py
+├──.venv/
+├──lunch_options/
+|  ├──__init__.py
+|  ├──chipotle.py
+|  └──wendys.py
 ```
 
 with
@@ -385,14 +385,14 @@ Let's change the project structure to the following.
 
 ```
 lunch_options/
-  setup.py
-  .venv/
-	lunch_options/
-	  __init__.py
-	  chipotle.py
-	  fastfood/
-		  wendys.py
-		  mcdonalds.py
+├──setup.py
+├──.venv/
+├──lunch_options/
+|  ├──__init__.py
+|  ├──chipotle.py
+|  └──fastfood/
+|     ├──wendys.py
+|     └──mcdonalds.py
 ```
 
 Inside `mcdonalds.py` I have
