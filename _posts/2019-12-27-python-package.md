@@ -399,7 +399,11 @@ Inside `mcdonalds.py` I have
 
 ```python
 # mcdonalds.py
+def food():
+    print('McRib')
 ```
+
+Let's try using this function. Here I often hear people asking a question.
 
 #### Common question: why can't I import?
 
