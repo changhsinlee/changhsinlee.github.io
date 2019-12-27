@@ -58,19 +58,19 @@ That's it.
 
 Let's break it down with an example.
 
-## Making a package `my_package`
+## Making a package `lunch_options`
 
-In this first example, I will demonstrate it with a package called `my_package`.
+In this first example, I will demonstrate it with a package called `lunch_options`.
 
 ### Folder structure
 
-Let's make a folder called `my_package`. Then make another folder in `my_package` also called `my_package` e.g. `my_package/my_package`.
+Let's make a folder called `lunch_options`. Then make another folder in `lunch_options` also called `lunch_options` e.g. `lunch_options/lunch_options`.
 
-Your folder structure will now look like this 
+Your project structure will now look like this (`/` indicates a folder):
 
 ```
-my_package/
-    my_package/
+lunch_options/
+    lunch_options/
 ```
 
 I will refer to
@@ -95,9 +95,11 @@ This creates a folder that hosts the virtual environment inside `lunch_options/.
 
 ```
 lunch_options/
-    .venv/
-    lunch_options/
+  .venv/
+  lunch_options/
 ```
+
+with no file other than the ones in `.venv`.
 
 Then, activate the virtual environment:
 
@@ -124,10 +126,10 @@ Create them as empty files in the respective folders.
 
 ```
 lunch_options/
-    setup.py
-	lunch_options/
-	    __init__.py
-    .venv/
+  setup.py
+  .venv/
+  lunch_options/
+    __init__.py
 ```
 
 #### `__init__.py`
@@ -234,11 +236,13 @@ Our current project structure looks like this
 
 ```
 lunch_options/
-    setup.py
+  setup.py
+  .venv/
 	lunch_options/
 	    __init__.py
-    .venv/
 ```
+
+and we will modify it to organize the functions better.
 
 ### Step 1. Put function in `__init__.py`
 
@@ -276,10 +280,12 @@ Let's add two more files into our project, `chipotle.py` and `wendys.py`
 
 ```
 lunch_options/
+  setup.py
+  .venv/
 	lunch_options/
-        __init__.py
-        chipotle.py
-        wendys.py
+    __init__.py
+    chipotle.py
+    wendys.py
 ```
 
 with
@@ -374,12 +380,14 @@ Let's change the project structure to the following.
 
 ```
 lunch_options/
+  setup.py
+  .venv/
 	lunch_options/
-	__init__.py
-	chipotle.py
-	fastfood/
-		wendys.py
-		mcdonalds.py
+	  __init__.py
+	  chipotle.py
+	  fastfood/
+		  wendys.py
+		  mcdonalds.py
 ```
 
 Inside `mcdonalds.py` I have
