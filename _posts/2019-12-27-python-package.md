@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "How to make an internal Python package 
-"
+title: "How to make an internal Python package"
 comments: true
 lang: en
 header-img: "/figure/source/2019-12-27-python-package/thumbnail.png"
@@ -12,7 +11,7 @@ A guide on writing your first Python package.
 
 > What do you need to make a Python package?
 
-I have been asked this question many times at work, so let's write it down.
+I have been asked this question many times, so let's write it down.
 
 In this tutorial, I will show you
 
