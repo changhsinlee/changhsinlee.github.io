@@ -414,7 +414,7 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'lunch_options.fastfood'
 ```
 
-#### Why does my import failed with subfolders?
+#### Why does my import fail with subfolders?
 
 When you run a normal `pip install`, Python `setuptools` make a copy of your package to where the Python interpreter is. What's in there?
 
@@ -437,7 +437,7 @@ setup(name='lunch_options',
 
 so it does not look deeper and find `fastfood`. How can I fix this?
 
-#### Fixing `setup.py`
+#### Fixing `setup.py` for subfolders
 
 To fix this, we need to add `fastfood` as part of the package:
 
