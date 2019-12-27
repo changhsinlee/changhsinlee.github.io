@@ -505,6 +505,10 @@ or to install from a particular branch in this case `mcchicken`:
 pip install git+https://github.com/changhsinlee/python-packaging-tutorial.gi t@mcchicken
 ```
 
+The code from this post is in here. Try it yourself:
+
+* https://github.com/changhsinlee/python-packaging-tutorial/tree/mcchicken
+
 ## Go make your own
 
 In this tutorial, I showed you 
