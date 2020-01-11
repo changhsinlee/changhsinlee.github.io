@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Best Audio Books I Listened to in 2019"
+title: "Best Audiobooks I Listened to in 2019"
 comments: true
 lang: en
 header-img: "/figure/source/2019-01-11-best-audio-books-2019/thumbnail.png"
