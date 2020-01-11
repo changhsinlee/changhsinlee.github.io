@@ -21,6 +21,7 @@ The links are Amazon affiliate links.
 * Published: 2002
 
 <a href="https://www.amazon.com/Art-Possibility-Transforming-Professional-Personal/dp/B004HY9254/ref=as_li_ss_il?crid=3AK6VN0N1Z5RU&keywords=art+of+possibility&qid=1578751993&sprefix=art+of+possibi,aps,149&sr=8-1&linkCode=li2&tag=changhsinlee-20&linkId=df1168f00a82a22c076273659f84acde&language=en_US" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B004HY9254&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=changhsinlee-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=changhsinlee-20&language=en_US&l=li2&o=1&a=B004HY9254" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 [Link to Amazon](https://amzn.to/2FHQMDL)
 
 This may be the most beautiful audiobook ever.
@@ -55,6 +56,7 @@ I'll quote the [opening words to Rule number six](https://www.huffpost.com/entry
 * Published: 2014
 
 <a href="https://www.amazon.com/Essentialism-Disciplined-Pursuit-Less/dp/B00IWYP5NI/ref=as_li_ss_il?crid=251OH67KAUOFV&keywords=essentialism&qid=1578752142&s=audible&sprefix=essential,audible,156&sr=1-1&linkCode=li2&tag=changhsinlee-20&linkId=870e0011a54d0b2af48f43cb2e11e03b&language=en_US" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00IWYP5NI&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=changhsinlee-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=changhsinlee-20&language=en_US&l=li2&o=1&a=B00IWYP5NI" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 [Link to Amazon](https://amzn.to/2sfvsm9)
 
 This book focuses on trimming away things in life. A few points that sticked with me:
@@ -79,6 +81,7 @@ Note: this is [a good podcast episode on opportunity costs](https://www.stitcher
 * Published: 2019
 
 <a href="https://www.amazon.com/The-Infinite-Game/dp/B07DKHFTB7/ref=as_li_ss_il?crid=Y8HTP5CX8YW6&keywords=simon+sinek+infinite+game&qid=1578752226&s=audible&sprefix=simon+sinek,audible,142&sr=1-1&linkCode=li2&tag=changhsinlee-20&linkId=466eaa9944f76400ec01aab5da96c021&language=en_US" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07DKHFTB7&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=changhsinlee-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=changhsinlee-20&language=en_US&l=li2&o=1&a=B07DKHFTB7" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 [Link to Amazon](https://amzn.to/2TdFDCL)
 
 I first heard about this concept through Seth Godin's blog. Then I read James Carse's [Finite and Infinite Games](https://amzn.to/2QLj4DC) from 1986. And this book really drove the concept home.
@@ -91,7 +94,7 @@ Finite players play the game to win.
 
 Infinite players play the game to keep playing.
 
-The US culture has a big focus on winning. Everyone uses sports or military analogies when conducting business. Somehow the culture tend to limite our thinking to finite games. And there may be a game that's more worthwhile to play.
+The culture placed a big focus on winning. Everyone uses sports or military analogies when conducting business. Somehow the culture tend to limite our thinking to finite games. And there may be a game that's more worthwhile to play.
 
 Carse's book set the concept and this book added to the concept with examples. I want to play a better game.
 
