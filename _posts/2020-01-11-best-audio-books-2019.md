@@ -44,11 +44,10 @@ The example where Ben brought a symphony to a British elementary school was phen
 
 I'll quote the [opening words to Rule number six](https://www.huffpost.com/entry/rule-6_b_6166638):
 
-    > Two prime ministers were sitting in a room discussing affairs of state. Suddenly an aide burst in, shouting and banging his fist on the desk. The host prime minister quietly said, "Peter, kindly remember Rule Number Six." Peter was instantly restored to complete calm, apologized for the interruption, and left the room. The prime ministers resumed their discussion. Several minutes later, another aide rushed in, shouting and stamping. Again the host prime minister quietly said, "Marie, please remember rule number six." Marie calmed down immediately, apologized, and left the room.
-
-    The visiting prime minister said "I've seen many things in my life, but never anything as remarkable as this. Tell me, what is this rule number six?" The host prime minister said, "It's really very simple. rule number six is: Don't take yourself so damned seriously." After a moment of pondering, the visiting prime minister inquired, "And what, may I ask, are the other rules?"
-
-    The host replied, "There aren't any."
+> Two prime ministers were sitting in a room discussing affairs of state. Suddenly an aide burst in, shouting and banging his fist on the desk. The host prime minister quietly said, "Peter, kindly remember Rule Number Six." Peter was instantly restored to complete calm, apologized for the interruption, and left the room.
+> The prime ministers resumed their discussion. Several minutes later, another aide rushed in, shouting and stamping. Again the host prime minister quietly said, "Marie, please remember rule number six." Marie calmed down immediately, apologized, and left the room.
+> The visiting prime minister said "I've seen many things in my life, but never anything as remarkable as this. Tell me, what is this rule number six?" The host prime minister said, "It's really very simple. rule number six is: Don't take yourself so damned seriously." After a moment of pondering, the visiting prime minister inquired, "And what, may I ask, are the other rules?"
+> The host replied, "There aren't any."
 
 ## 2. Essentialism
 
