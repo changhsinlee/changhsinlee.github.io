@@ -82,4 +82,4 @@ I'll conclude with a quote from Anthony Bourdain in Kitchen Confidential:
 
 Make my nervous system work for myself—I like it.
 
-PS. If you want to improve your home cooking, try this:[The Food Lab by Kenji Alt-Lopez (affiliate link)](https://amzn.to/2RA4MFl). The hardcover is a thing of beauty and belongs to every home chef's bookshelf.
+PS. If you want to improve your home cooking, try this book: [The Food Lab by Kenji Alt-Lopez (affiliate link)](https://amzn.to/2RA4MFl). The hardcover is a thing of beauty and belongs to every home chef's bookshelf.
