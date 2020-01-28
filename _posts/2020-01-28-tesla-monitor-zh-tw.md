@@ -11,7 +11,7 @@ header-img: "/figure/source/2020-01-28-tesla-monitor-zh-tw/thumbnail.png"
 幾個月前，在把我的舊車賣掉換成新的過程中，看了試了不少車廠的車。但其中最奇妙的內裝還是特斯拉：中控系統沒有任何按鈕，有的只有一個超大的面板。
 
 ![Model 3](/figure/source/2020-01-28-tesla-monitor-zh-tw/640px-Interior_of_Model_3.jpg)
-*Model 3 from Wikipedia 
+*Model 3 from Wikipedia*
 
 這點對於開慣其他車廠車的車主，坐進去可能會覺得很不適應，但這反映出的是一個趨勢。直到最近，我才領悟為什麼所有車廠都在往大面板的方向邁進，而特斯拉一開始就往這個方向設計的可能原因。
 
