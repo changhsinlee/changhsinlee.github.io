@@ -4,8 +4,8 @@ permalink: /notes/
 ---
 
 <div class="posts">
-  {% for post in site.notes %}
-    {% if post.lang == 'en' %}
+  {% for post in site.posts %}
+    {% if post.lang == 'en' and post.type == 'note' %}
         <article class="post">
 
           <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
