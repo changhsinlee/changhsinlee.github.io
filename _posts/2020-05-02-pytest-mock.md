@@ -3,7 +3,7 @@ layout: post
 title: "pytest: How to mock in Python"
 comments: true
 lang: en
-header-img: "/figure/source/2020-05-02-pytest-mock.md/thumbnail.png"
+header-img: "/figure/source/2020-05-02-pytest-mock/thumbnail.png"
 ---
 
 If you have trouble understanding mocks for testing in Python like me, then this post is for you.
