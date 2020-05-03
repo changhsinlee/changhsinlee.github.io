@@ -265,7 +265,7 @@ In my opinion, the best time to mock is when you find yourself refactoring code 
 
 Trying to make changes without a test means you are incurring technical debt for the future and making teammates pay for it.
 
-In this case, if my goal is making changes to the computations, I would figure out how to mock the data connectors and start writing tests. As long 
+In this case, if my goal is making changes to the computations, I would figure out how to mock the data connectors and start writing tests.
 
 ### The tests seem to be tied to how I implement the code. Isn't that a bad thing?
 
