@@ -291,7 +291,15 @@ def test_mocking_constant_twice_in_same_test(mocker):
 
 ### Learn form my mistakes
 
-The most common mistake that I make when I write tests with mocks is... that I mock after I make the method call I want to patch. Sometimes I would I would spend 15 minutes trying to figure out what is wrong 🤦‍♂️. If you are having trouble getting mocks to work,
+The most common mistake that I make when I write tests with mocks is... that I mock after I make the method call I want to patch:
+
+```py
+actual = compute(x)
+mocker.patch('some.function', fake_function) 
+# And I wonder why compute() wasn't patched :(
+```
+
+More than once I spent more than 15 minutes trying to figure out what was wrong 🤦‍♂️. If you are having trouble getting mocks to work,
 
 1. Make sure you are mocking where it is imported into
 2. Make sure the mocks happen before the method call, not after
