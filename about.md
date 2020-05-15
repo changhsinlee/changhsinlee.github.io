@@ -42,4 +42,14 @@ Summary of posts and new ideas I am experimenting that goes out about once a mon
 
 <!--End mc_embed_signup-->
 
+### Site
+
 This blog is built on [Jekyll Now](https://github.com/barryclark/jekyll-now) by Barry Clark.
+
+### Terms and conditions
+
+changhsinlee.com participates in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn commissions by linking to Amazon. 
+
+Basically, this just means that I get a small commission if you buy a book from Amazon that I mention on this site. There is no difference in price for you.
+
+Terms and conditions modified from [jamesclear.com](https://jamesclear.com/terms-and-conditions)
