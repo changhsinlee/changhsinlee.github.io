@@ -32,6 +32,7 @@ Then in the next code cell,
 ```py
 import requests
 # Save datagenerators as file to colab working directory
+# If you are using GitHub, make sure you get the "Raw" version of the code
 url = 'https://raw.githubusercontent.com/ijmbarr/notes-on-causal-inference/master/datagenerators.py'
 r = requests.get(url)
 
