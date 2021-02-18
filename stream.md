@@ -10,4 +10,4 @@ permalink: /stream/
 
 主題：實際操作如何研究一家公司
 
-連結：https://www.twitch.tv/boyofans
+連結：[https://www.twitch.tv/boyofans](https://www.twitch.tv/boyofans)
