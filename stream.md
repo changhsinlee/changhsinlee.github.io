@@ -6,8 +6,10 @@ lang: ch
 permalink: /stream/
 ---
 
-預計時間美國東岸時間 2/19 號早上9點，台灣時間 2/19 號晚上10點。
+預計時間美國東岸時間 3/27 號早上7點30，台灣時間 3/27 號晚上8點30。
 
-主題：實際操作如何研究一家公司
+主題：??
 
-連結：[https://www.twitch.tv/boyofans](https://www.twitch.tv/boyofans)
+Clubhouse: @changhsinlee
+
+Twitch: [https://www.twitch.tv/boyofans](https://www.twitch.tv/boyofans)
