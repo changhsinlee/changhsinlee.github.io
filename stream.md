@@ -8,7 +8,7 @@ permalink: /stream/
 
 預計時間美國東岸時間 3/27 號早上8點30，台灣時間 3/27 號晚上9點30。
 
-主題：讀財務數據
+主題：隨便找幾支美國penny stock來研究
 
 Clubhouse: @changhsinlee
 
